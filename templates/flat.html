@@ -1,0 +1,11 @@
+{# This is a work around for a known bug in 0.2.2 and earlier #}
+{# The author has promised to fix it in 0.2.3 or 0.3.0 #}
+{% extends 'base.html' %}
+
+{% block documenttitle %}
+{{ page.title }}
+{% endblock %}
+
+{% block content %}
+{{ page.content }}
+{% endblock %}

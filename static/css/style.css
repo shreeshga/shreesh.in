@@ -1,0 +1,174 @@
+/* This work is licensed under a Creative Commons Attribution 3.0 United States
+ * License.  All redistributions, either as part of a theme package, or in use
+ * on a website should include this copyright notice.
+ *
+ * Copyright 2009 Robert Escriva
+ */
+html {
+    background-image: url('../images/back.png');
+}
+
+body {
+    margin: 0;
+}
+
+#doc4 {
+    background: #ffffff;
+    color: #2e3436;
+    border-style: solid ;
+    border-color: #000000;
+    border-width: 0.769em 0.077em 0 0.077em;
+    margin: 0.769em auto;
+    padding: 0;
+	-moz-box-shadow: 10px 10px 5px #8A8787;
+	-webkit-box-shadow: 10px 10px 5px #8A8787;
+	box-shadow: 10px 10px 5px #8A8787;
+}
+
+#hd {
+    background: #eeeeec;
+    border-style: solid none;
+    border-color: #AEACFC;
+    border-width: 0.154em;
+    font-size: 138.5%;
+    padding: 0.769em;
+}
+
+#hd h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#hd h1 a {
+    color: #2e3436;
+    font-size: 131%;
+    text-decoration: none;
+}
+
+#ft {
+    background: #000000;
+    border-style: solid none;
+    border-color: #AEACFC;
+    border-top-width: 0.154em;
+    border-bottom-width: 0;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#ft p {
+    margin: 0;
+    text-align: center;
+}
+
+#ft p a {
+    background: #000000;
+    color: #ffffff;
+}
+
+.sidebox {
+    background: #eeeeec;
+    border-style: solid none;
+    border-color: #AEACFC;
+    border-width: 0.077em;
+    margin: 0.769em;
+    margin-right: 0;
+    padding: 0.769em;
+    padding-bottom: 0;
+}
+
+.sidebox h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/*********************** Entry stuff ***************************************/
+
+.entry {
+    background: #eeeeee;
+    border-style: solid none;
+    border-color: #AEACFC;
+    border-width: 0.077em;
+    margin: 0.769em;
+    margin-left: 0;
+    padding: 0.769em;
+}
+
+.entry .header {
+    margin: 0;
+    padding: 0;
+}
+
+.entry .header h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.entry .header h2 a {
+    color: #2e3436;
+}
+
+.entry .header h2 a:hover {
+    color: #2e3436;
+}
+
+.entry .header .metadata {
+    border-bottom: 0.077em solid #babdb6;
+    padding: 0.769em 0;
+    margin-bottom: 0.769em;
+}
+
+.entry .header .metadata:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.entry .header .metadata .authorship {
+    margin: 0;
+    padding: 0;
+}
+
+.entry .header .metadata .tags {
+    margin: 0;
+    padding: 0;
+}
+
+.entry .header .metadata .tags ul {
+    margin: 0;
+}
+
+.entry .header .metadata .tags ul li {
+    display: block;
+    float: left;
+    margin: 0 0 0 0.769em;
+}
+
+.entry .header .metadata .tags ul li:before {
+    color: #729fcf;
+    content: "\00bb\00a0";
+}
+
+/********************* General stuff ***************************************/
+
+.entry tt.literal {
+    background: #ffffff;
+    font-family: monospace;
+}
+
+.entry .content pre {
+    background: #fffffff;
+    border-left: 0.077em solid #a40000;
+    overflow: auto;
+    padding: 0.769em;
+}
+
+.entry .content pre code {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}

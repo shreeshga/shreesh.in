@@ -1,0 +1,44 @@
+.. title:: 2012  checklist
+.. author:: Shreesh
+.. time:: 05:23
+.. updated:: 2011-12-27 05:23
+.. timezone:: UTC
+.. feed:: all
+.. copyright:: Creative Commons Attribution 3.0 Unported
+
+2012  checklist
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Tech Checklist for 2012:
+------------------------
+
+-  **onePage**: A chrome plugin to better read html pages.[like clearly by
+   evernote] [side-effect, learn chrome plugin development]
+-  **oneEdit**: A lightweight online editor [side-effect, learn javascript]
+-  **tweetZilla**: with continuous deployment, the natural way of tracking
+   issues is to follow-up on feedback from users through tweets. parse
+   the tweets, cluster by issue[use k-means clustering] and follow-up
+   until they are fixed.
+
+Life checklist:
+---------------
+
+-  *Be organized*: Need to stop missing the deadlines and schedules. Find
+   a tool to organize everything.
+-  *Less distraction*: At any point of time, I have 15-20 chrome tabs open
+   in a window.[not to mention, multiple windows :-/]. I have an account
+   in every new social/tech/recommendation/news-feed site, with far less
+   interaction.
+-  *Overcome Analyses-Paralysis*: Spend less time analyzing, more time
+   implementing.
+
+Personal checklist:
+-------------------
+
+-  Pause more often: Stop rushing through life.
+-  Speak more: Have to stop talking to the point.[this is futile]
+-  Stop binge eating: The fact that I don't put on weight even after
+   destroying kilos of chocolates, doesn't mean I should abuse my
+   stomach and teeth.
+-  Continue not being an asshole.
+
