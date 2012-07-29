@@ -7,8 +7,9 @@
 .. copyright:: Creative Commons Attribution 3.0 Unported
 
 
+=======================================
 Cornell MEng CS Survival guide
-=================================
+=======================================
 
 
 
