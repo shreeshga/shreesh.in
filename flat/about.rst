@@ -5,6 +5,15 @@ About
 Shreesh Ayachit
 -----------------
 
+
+.. figure:: ../images/Shreesh.png  
+    :width: 200px
+    :alt: nerd alert!
+
+|
+|
+|
+
 | Platform agnostic mobile software developer.
 | Internet handle: `shreeshga <https://www.google.com/search?q=shreeshga>`_ 
 
@@ -25,7 +34,7 @@ Likes
 
 Get my CV_
 
-.. _CV: http://shreesh.in/media/Shreesh.pdf
+.. _CV: http://shreesh.in/images/Shreesh.pdf
 .. _0x0d2C:  http://www.netfunny.com/rhf/jokes/90q2/ode.html
 .. _nethack: http://www.nethack.org
 .. _bart: http://en.wikipedia.org/wiki/Bart_Simpson

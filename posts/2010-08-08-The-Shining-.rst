@@ -9,7 +9,6 @@
 The Shining 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-::
 
     `Stanley Kubrick <http://www.imdb.com/name/nm0000040/>`_, known for
     his compulsiveness and numerous retakes, got the difficult shot of

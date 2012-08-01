@@ -2,20 +2,40 @@
 iOS Apps
 ---------------------
 
-.. image:: ../images/HOC.png 
+.. figure:: ../images/HOC.png  
+    :width: 300px
 
-`House of Classic <http://itunes.apple.com/us/app/houseofclassic/id442698140?mt=8>`_
+    `House of Classic <http://itunes.apple.com/us/app/houseofclassic/id442698140?mt=8>`_
 
-.. image:: ../images/HOJ.png 
 
-`House_of_Jazz <http://itunes.apple.com/us/app/house-of-jazz/id439654572?mt=8>`_
+|
+|
+|
 
-.. image:: ../images/RP.png 
+.. figure:: ../images/HOJ.png  
+    :width: 300px
 
-RaagaPolice 
+    `House of Jazz <http://itunes.apple.com/us/app/house-of-jazz/id439654572?mt=8>`_
+   
 
-.. image:: ../images/BETT.jpg
+|
+|
+|
 
-An App for BETT Trade show in London
+.. figure:: ../images/RP.png 
+    :width: 300px
+
+    **RaagaPolice**
+
+|
+|
+|
+
+
+.. figure:: ../images/BETT.jpg 
+    :width: 300px
+
+    **An App for BETT Trade show in London**
+    
 
 

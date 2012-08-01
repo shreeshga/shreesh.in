@@ -45,7 +45,7 @@ in school. For example, unicellular organisms aren't the smallest anymore.
 * No more Batman movies from Nolan.
 * The never ending tirade against Facebook/Microsoft/Google/Apple.
 * App developers and *CEO n00bs*  suddenly realizing app revenue can't pay them 
-  enough revenue until their grand children finish medical school.
+  enough money for  their grand children finish medical school.
 
 I can't wait to die [oh, and also  verify my hindu beliefs]
 
