@@ -19,13 +19,12 @@ Recently I read an article on the size_of_the_univese_ and it ends with a rather
 
 Well, Thats a bummer. No wonder NASA isn't getting any funding.
 
-People, stop making such depressing posts. Some people like me have lived
-life thinking some time in the future, we might drop a visit to the far end of the universe and have a cup of coffee with aliens. 
+People should  stop making such depressing posts. Some people like me, have lived
+life thinking some time in the future, we might drop a visit to the far end of the universe and have a cup of coffee with aliens. Such news need to be put in spoiler alerts.
 
 
-
-Then the news  that boson which was observed just *might* be the Higgs boson.
-
+In other news, That boson which was observed, might *might* just be the Higgs boson.
+If its not the higgs boson, I want my hours of "Higg's boson goggling" back.
 The only real aspiration in my life was to understand the world
 we are in. Since the news of the boson, I try to imagine every thing in
 terms of how the bosons might be interacting with an imaginary "field".
@@ -39,7 +38,7 @@ in school. For example, unicellular organisms aren't the smallest anymore.
 |   Imagine the size of the cells!
 |   I totally take back my admiration for Amoeba,Paramecia and such others.
 
-
+|
 |   Wait, It gets worse:
 
 * No more Batman movies from Nolan.

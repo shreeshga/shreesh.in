@@ -22,4 +22,5 @@ publish:
 	env FIRMANT_OUTPUT_DIR=shreesh.in \
 		FIRMANT_PERMALINK_ROOT=http://shreesh.in/\
 		firmant settings
-	rsync -PLrvhz --chmod=ugo=rwX --delete --exclude='\.*' shreesh.in/ "oml@oml.in:/home/oml/shreesh/"
+	#rsync -PLrvhz --chmod=ugo=rwX --delete --exclude='\.*' shreesh.in/ "oml@oml.in:/home/oml/shreesh/"
+	rsync -e "ssh -i /Users/shreeshga/Keys/servertype.pem" -PLrvhz --chmod=ugo=rwX --delete --exclude='\.*' shreesh.in/ "ubuntu@54.245.116.120:/home/ubuntu/shreesh.in/blog/"
