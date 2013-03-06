@@ -1,0 +1,652 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        
+
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/reset-fonts-grids/reset-fonts-grids.css"> 
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/base/base-min.css">
+
+        <link rel="stylesheet" href="http://shreesh.in/css/style.css" type="text/css" />
+        
+
+
+        <link href="http://shreesh.in/all/" rel="alternate" title="Atom Feed" type="application/atom+xml" />
+
+
+        <title>Shreesh Ayachit</title>
+
+        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-6341348-3']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        
+        </script>
+    </head>
+    <body>
+        <div id="doc4" class="yui-t2">
+            <div id="hd">
+                <h1 class="title">
+                    <a href="http://shreesh.in/" title="Home">
+                        char stream
+                    </a>
+                </h1>
+                <div class="tagline">A blog powered by Free & Open  Internet</div>
+            </div><!-- hd -->
+            <div id="bd">
+                <div id="yui-main">
+                    <div class="yui-b">
+    
+        <div class="entry">
+    <div class="header">
+        <h2><a href="http://shreesh.in/2013/02/08/River-of-News/">River of News</a></h2>
+        <div class="metadata">
+            <div class="authorship">
+                <span class="author">Posted by  on February 08, 2013 at 00:00 AM</span>
+                <!--<img class="license" alt="" src= "cc-by-sa.png" />-->
+            </div><!-- authorship -->
+        </div><!-- metadata -->
+    </div><!-- header -->
+
+    <div class="content">
+        <p><a class="reference external" href="http://davewiner.com/">Dave Winer</a>  defines &quot;river of news&quot; as:</p>
+<blockquote>
+<p>Standard news readers organize feeds into groups, and then under each feed are items. If there's an unread item in a feed, the feed's name is bold. If you leave the cursor on an item long enough the feed name goes un-bold. These programs work much like mail readers, so much so that they are sometimes even integrated into mail readers.</p>
+<p>But there's another kind of reader, an aggregator, that works differently, and I think more efficiently for the human reader. Instead of having to hunt for new stories by clicking on the titles of feeds, you just view the page of new stuff and scroll through it. It's like sitting on the bank of a river, watching the boats go by. If you miss one, no big deal. You can even make the river flow backward by moving the scollbar up. To me, this more approximates the way I read a print newspaper, actually it's the way I wish I could read a print newspaper -- instead of having to go to the stories, they come to me. This makes it easier for me to use my brain's powerful scanning mechanism. It's faster, I can subscribe to more, and my fingers do less work.</p>
+</blockquote>
+<p>I was sold.</p>
+<p>But,there was no simple setup instructions on ubuntu for his great-looking <a class="reference external" href="http://river2.newsriver.org/">River2</a> feed reader.</p>
+<p>And yesterday,  I found <a class="reference external" href="http://www.intertwingly.net/code/venus/">Planet Venus</a>, which is a simple river of news  aggregator.</p>
+<p>With in a few minutes I had my news feed up on <a class="reference external" href="http://charles.shreesh.in">Charles River</a></p>
+<p>Refer: <a class="reference external" href="http://library.linode.com/web-applications/social-networking/planet/ubuntu-10.04-lucid">How to install Venus on Ubuntu</a></p>
+
+    </div><!-- content -->
+</div><!-- entry -->
+    
+        <div class="entry">
+    <div class="header">
+        <h2><a href="http://shreesh.in/2012/12/08/Wedding-Site/">The art of creating wedding invitations</a></h2>
+        <div class="metadata">
+            <div class="authorship">
+                <span class="author">Posted by Shreesh on December 08, 2012 at 00:34 AM</span>
+                <!--<img class="license" alt="" src= "cc-by-sa.png" />-->
+            </div><!-- authorship -->
+        </div><!-- metadata -->
+    </div><!-- header -->
+
+    <div class="content">
+        <p>Turns out; I am getting married. So, I wanted to create a web site instead of
+mailing everyone with a Megabytes of scanned invitation [I know, not very Indian of me].</p>
+<p>Being a  programmer, using e-wedding or such other hosting sites is wholly
+<em>unacceptable</em>.</p>
+<p>I had worked with Python Flask before, so I quickly put together a static site
+using the <a class="reference external" href="https://github.com/mbr/flask-bootstrap">Flask-Bootstrap-Responsive</a> plugin [see? How easily I  put together
+a site with best of the breed] and threw it in my AWS micro instance.</p>
+<p>I had the idea of creating a joint-timeline of Prerna &amp; me, with special
+moments along with some pictures. Turns out Facebook has the feature in &quot;See
+Friendship&quot; [who knew?]. I found an awesome js library <a class="reference external" href="http://timeline.verite.co/">TimelineJS</a> which reads data from  published Google
+spreadsheet, parses the data and displays a nice timeline of events.</p>
+<p>So, We both started filling in the event details in a shared Google drive <a class="reference external" href="https://docs.google.com/spreadsheet/pub?key=0AtNxSwigiymodHR5ZEFnOUN0T3ZhUWJNRWEzTXFJemc&amp;single=true&amp;gid=0&amp;output=html">Spreadsheet</a>.
+I, for the most part, edited the sheet from the Android Google <em>Drive App</em>.</p>
+<p>I wanted to have a message board to get people to leave  a message.
+[I hate the guest book feature which is essentially a text box and submit
+button] Sadly, Google+ does not yet support a writable comment box plugin.
+So, went with the least desirable FB comment box.</p>
+<p>TL;DR: <a class="reference external" href="http://www.youtube.com/watch?v=unkIVvjZc9Y">HDFU</a> and write your own
+wedding site.</p>
+<p>Also, <a class="reference external" href="http://prerna.shreesh.in">Wedding!</a></p>
+
+    </div><!-- content -->
+</div><!-- entry -->
+    
+        <div class="entry">
+    <div class="header">
+        <h2><a href="http://shreesh.in/2012/10/26/Code/">Code</a></h2>
+        <div class="metadata">
+            <div class="authorship">
+                <span class="author">Posted by Shreesh on October 26, 2012 at 23:34 PM</span>
+                <!--<img class="license" alt="" src= "cc-by-sa.png" />-->
+            </div><!-- authorship -->
+        </div><!-- metadata -->
+    </div><!-- header -->
+
+    <div class="content">
+        <p>There are a lot of guidelines of what constitutes good code; fewer bugs, easier
+to understand and so on. But they are too vague to describe.
+For me, If I had to define good code specifically</p>
+<blockquote>
+<strong>Any code which I can fix</strong></blockquote>
+<p>And consequently, any code which makes it harder for me to fix is bad.
+For Example, the point of modular programming is to define functions which
+can be described by their name. So that when you are reading code with folding
+enabled, you don't have to read through to each function to guess what its
+doing. Some programmers code like this</p>
+<pre class="code java literal-block">
+<span class="kt">void</span> <span class="nf">onethingFunc</span><span class="o">()</span> <span class="o">{</span>
+    <span class="n">doSomething</span><span class="o">;</span>
+    <span class="n">doSomethingElse</span><span class="o">;</span>
+    <span class="n">doSomeOtherThing</span><span class="o">;</span>
+    <span class="n">andOn</span><span class="o">;</span>
+    <span class="n">andOn</span><span class="o">;</span>
+<span class="o">}</span>
+</pre>
+<div class="line-block">
+<div class="line">This code reminds me of assembly instructions.</div>
+<div class="line">One instruction per line.</div>
+<div class="line">Very hard to read.</div>
+<div class="line"><br /></div>
+<div class="line">Instead, if the above code  was something like this:</div>
+<div class="line"><br /></div>
+</div>
+<pre class="code java literal-block">
+<span class="kt">void</span> <span class="nf">doSomething</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">do</span><span class="o">;</span>
+    <span class="n">some</span><span class="o">;</span>
+    <span class="n">thing</span><span class="o">;</span>
+<span class="o">}</span>
+
+<span class="kt">void</span> <span class="nf">doSomethingElse</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">do</span><span class="o">;</span>
+    <span class="n">some</span><span class="o">;</span>
+    <span class="n">thing</span><span class="o">;</span>
+    <span class="k">else</span><span class="o">;</span>
+<span class="o">}</span>
+
+<span class="kt">void</span> <span class="nf">doSomeOtherThing</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">do</span><span class="o">;</span>
+    <span class="n">some</span><span class="o">;</span>
+    <span class="n">other</span><span class="o">;</span>
+    <span class="n">thing</span><span class="o">;</span>
+<span class="o">}</span>
+</pre>
+<p>Makes life <em>so</em> much better.</p>
+
+    </div><!-- content -->
+</div><!-- entry -->
+    
+        <div class="entry">
+    <div class="header">
+        <h2><a href="http://shreesh.in/2012/10/03/Product-Obsession/">About the Android UI Design Guidelines</a></h2>
+        <div class="metadata">
+            <div class="authorship">
+                <span class="author">Posted by Shreesh on October 03, 2012 at 00:34 AM</span>
+                <!--<img class="license" alt="" src= "cc-by-sa.png" />-->
+            </div><!-- authorship -->
+        </div><!-- metadata -->
+    </div><!-- header -->
+
+    <div class="content">
+        <p>I was looking forward to <em>The Android App Clinic: Travel Booking and Planning</em>
+[<a class="reference external" href="https://www.youtube.com/watch?feature=player_embedded&amp;v=k1_8N-KToPs#t=2306s">link</a>] by Reto Meier &amp; Ian Ni-Lewis. I even put in a little unnamed comment
+and a thumbs up for KAYAK.
+[Notice the lowercase 'I'].</p>
+<blockquote>
+&quot;i work for kayak and would love some feedback.&quot;</blockquote>
+<p>Although it was a good third-perspective, It had some problems:</p>
+<blockquote>
+<ul class="simple">
+<li>Too much focus on  Android UI Design guideline.</li>
+<li>Considering they review many many apps, seemingly common repetitive UI
+patterns start to annoy them [Like the &quot;Rate Me Rate Me!!&quot; dialog]</li>
+<li>A very cursory review, overlooking the content and just focusing on the
+presentation.</li>
+</ul>
+</blockquote>
+<p>They followed it up with a redesign of the KAYAK [and other apps] so that its
+more consistent with the Android UI pattern[<a class="reference external" href="https://developers.google.com/live/shows/ahNzfmdvb2dsZS1kZXZlbG9wZXJzcg4LEgVFdmVudBjT3pMEDA/">design_link</a>].</p>
+<p>But what struck me most, was their absolute focus on enforcing the Android UI
+patterns among all the apps. Which isn't surprising since the overall Android
+experience is their <strong>Product</strong>. And they were right in being particular about
+it.</p>
+<p>The problem is that, the companies building those apps want to promote
+<em>their</em> product and want to have a consistent experience across devices.</p>
+<p>Hence, the priorities of consumer-facing companies and device platform creators are
+orthogonal.</p>
+<p>But when I start to use the apps as normal user, I can 'decipher' most of the
+UI elements and for the most part don't care if an app misses the ActionBar
+pattern.</p>
+<div class="line-block">
+<div class="line">I am obsessed with my product[my time], and until the apps don't waste it.</div>
+<div class="line">I would live with a gradient header with a center text.</div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line">PS: As an android fan, I would love to see all the apps having the same  Android UI pattern.</div>
+</div>
+
+    </div><!-- content -->
+</div><!-- entry -->
+    
+        <div class="entry">
+    <div class="header">
+        <h2><a href="http://shreesh.in/2012/08/07/The-Case-against-Apple/">Google &gt; Apple</a></h2>
+        <div class="metadata">
+            <div class="authorship">
+                <span class="author">Posted by Shreesh on August 07, 2012 at 22:34 PM</span>
+                <!--<img class="license" alt="" src= "cc-by-sa.png" />-->
+            </div><!-- authorship -->
+        </div><!-- metadata -->
+    </div><!-- header -->
+
+    <div class="content">
+        <p>A normal day interaction with my mobile:[iPhone or Android]</p>
+<blockquote>
+<ul class="simple">
+<li>Check GMail.</li>
+<li>Check Weather.</li>
+<li>Use Google maps</li>
+<li>Browse Twitter,Zite.</li>
+<li>Read a pdf file.</li>
+<li>Open up saved documents, pages on <em>Evernote</em>.</li>
+<li>Play an occasional game.</li>
+<li><em>Development mode</em></li>
+<li>Google for things which I have heard for first time.</li>
+<li>Check time throughout the day.</li>
+</ul>
+</blockquote>
+<p>I heavily use Google products irrespective of the mobile, which makes me
+believe that  Google clearly has a better business model.
+Even though I have never clicked on google ads in GMail nor in search results,yet
+Google had over $37 billion in revenue[2011] [<a class="reference external" href="http://www.msnbc.msn.com/id/48369286/ns/business-motley_fool/#.UCMsTmNAYUo">msnbc</a>], proving there <em>is</em> some value in text ads afterall.</p>
+<p>But, just the revenue of Apple from iPhone  was $50 billion.</p>
+<p>Even though Google's business model is <em>making smart algorithms to make people click
+ads</em>, It is still in better position than Apple's presence in mobile device
+market. Samsung is catching up fast and people seem to forget how fast market leaders
+are destroyed[RIM, Nokia].</p>
+<p>Google on the other hand, does not have a serious competitor in the ads business and
+its safe to assume that it is going to be the leader for a few more years to
+come.[And hopefully to be the first to hit upon an alternative  business model].</p>
+<p>The sheer awesomeness of Google Knowledge graph, Android platform,ROS support,Google Maps,Optic network Self-driven cars has beaten out the Apple fan boy in me.</p>
+<p>PS: Facebook you say? <em>Oh Pls!</em> [<a class="reference external" href="http://www.businessinsider.com/chart-of-the-day-pe-ratio-for-tech-companies-2012-8">businessinsider</a>]</p>
+
+    </div><!-- content -->
+</div><!-- entry -->
+    
+        <div class="entry">
+    <div class="header">
+        <h2><a href="http://shreesh.in/2012/08/06/Heres-to-Human-Curiosity/">Here's to Human Curiosity</a></h2>
+        <div class="metadata">
+            <div class="authorship">
+                <span class="author">Posted by Shreesh on August 06, 2012 at 22:34 PM</span>
+                <!--<img class="license" alt="" src= "cc-by-sa.png" />-->
+            </div><!-- authorship -->
+        </div><!-- metadata -->
+    </div><!-- header -->
+
+    <div class="content">
+        <p><a class="reference external" href="http://www.universetoday.com/14824/distance-from-earth-to-mars/#ixzz22k4VJ3eY">distance from earth to mars :</a></p>
+<blockquote>
+Times of close approach are called ”launch windows” in the spaceflight vernacular.
+Even though Mars doesn’t always come close enough for clear visual observation, navigators have an opportunity to launch a spacecraft to Mars every 26 months. Spaceships don’t just take off in any direction.
+Escaping Earth’s gravitational pull requires a tremendous amount of energy. Even with that energy a spacecraft would never reach the orbit of Mars without a little help from its friends. To get a spacecraft to Mars, navigators time the launch so the spacecraft reaches Mars when it is on the opposite side of the Sun from Earth in order to take advantage of solar gravity.
+The Sun’s gravitational pull will cause a spacecraft to “fall” toward the Sun. This motion follows predictable physical laws. These trajectories and orbits are collectively referred to as Hohmann transfer orbits. ”What you want to do is launch the spacecraft so it goes around the Sun to meet Mars,” says Moriba Jah at NASA’s Jet Propulsion Laboratory, a navigator on the Mars Reconnaissance Orbiter, We give it the least amount of energy possible and let the Sun’s gravity do as much as it can for us. As a result the spacecraft comes up on Mars from behind, but instead of sailing past, a short blast from the boosters allow it to slow down and be captured into orbit by Mars’ gravity. The trip takes about 214 days.</blockquote>
+<p>First image of Mars Horizon sent by <em>Curiosity</em>:</p>
+<img alt="http://shreesh.in/images/mars.jpg" src="http://shreesh.in/images/mars.jpg" />
+
+    </div><!-- content -->
+</div><!-- entry -->
+    
+        <div class="entry">
+    <div class="header">
+        <h2><a href="http://shreesh.in/2012/07/26/Future-Is-Boring/">The Future is boring</a></h2>
+        <div class="metadata">
+            <div class="authorship">
+                <span class="author">Posted by Shreesh on July 26, 2012 at 23:34 PM</span>
+                <!--<img class="license" alt="" src= "cc-by-sa.png" />-->
+            </div><!-- authorship -->
+        </div><!-- metadata -->
+    </div><!-- header -->
+
+    <div class="content">
+        <p>Recently I read an article on the <a class="reference external" href="http://scienceblogs.com/startswithabang/2012/07/18/how-big-is-the-entire-universe/(here)">size_of_the_univese</a> and it ends with a rather depressing line:</p>
+<blockquote>
+Once you put our knowledge about dark matter and dark energy in there,
+you’ll realize that we’ll never see more of the Universe than we can right now.</blockquote>
+<p>Well, Thats a bummer. No wonder NASA isn't getting any funding.</p>
+<p>People should  stop making such depressing posts. Some people like me, have lived
+life thinking some time in the future, we might drop a visit to the far end of the universe and have a cup of coffee with aliens. Such news need to be put in spoiler alerts.</p>
+<p>In other news, That boson which was observed, might <em>might</em> just be the Higgs boson.
+If its not the higgs boson, I want my hours of &quot;Higg's boson goggling&quot; back.
+The only real aspiration in my life was to understand the world
+we are in. Since the news of the boson, I try to imagine every thing in
+terms of how the bosons might be interacting with an imaginary &quot;field&quot;.
+|  Although, I <em>try</em> not to do it when I am around people.</p>
+<p>Piling on top of it are the observations which totally defy what I have learnt
+in school. For example, unicellular organisms aren't the smallest anymore.
+<a class="reference external" href="http://blogs.discovermagazine.com/notrocketscience/2011/11/30/how-fairy-wasps-cope-with-being-smaller-than-amoebas">There are wasps the size of an amoeba!</a>.</p>
+<div class="line-block">
+<div class="line">Imagine the size of the cells!</div>
+<div class="line">I totally take back my admiration for Amoeba,Paramecia and such others.</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line-block">
+<div class="line">Wait, It gets worse:</div>
+</div>
+</div>
+<ul class="simple">
+<li>No more Batman movies from Nolan.</li>
+<li>The never ending tirade against Facebook/Microsoft/Google/Apple.</li>
+<li>App developers and <em>CEO n00bs</em>  suddenly realizing app revenue can't pay them
+enough money for  their grand children finish medical school.</li>
+</ul>
+<p>I can't wait to die [oh, and also  verify my hindu beliefs]</p>
+
+    </div><!-- content -->
+</div><!-- entry -->
+    
+        <div class="entry">
+    <div class="header">
+        <h2><a href="http://shreesh.in/2012/01/17/Cornell-Meng-Guide/">Cornell MEng CS Survival guide</a></h2>
+        <div class="metadata">
+            <div class="authorship">
+                <span class="author">Posted by Shreesh on January 17, 2012 at 20:34 PM</span>
+                <!--<img class="license" alt="" src= "cc-by-sa.png" />-->
+            </div><!-- authorship -->
+        </div><!-- metadata -->
+    </div><!-- header -->
+
+    <div class="content">
+        <p>Cornell is a <strong>great</strong> place to study. Having worked for quite sometime, I can
+better appreciate and analyse the whole experience of academia.</p>
+<p>Based on my semester worth of experience here are my two cents on surviving the
+course.</p>
+<div class="section" id="about-ithaca">
+<h1>About Ithaca</h1>
+<p>Its beautiful in summer and white as Gandalf during winters.</p>
+<p><em>Collegetown</em> is a hub of activity and most certainly the place to be on a Friday
+night. There are quite a few pubs, so getting drunk and studying should be
+possible on a weekly basis.</p>
+<p>There are beautiful parks,lakes,gorges and falls which should not be missed.
+PS: The airport is no bigger than a dining hall and the planes are small bombardier aircrafts.</p>
+</div>
+<div class="section" id="selecting-courses">
+<h1>Selecting courses</h1>
+<p>You need to complete 30 credits in two semesters.</p>
+<p>There are two tracks: Systems and Machine Learning.</p>
+<p>Systems courses are related to OS, Database and compilers.
+Machine Learning courses deal with Machine learning algorithms, Data Analysis and Robotics.
+Although you can take any courses, its best if you stick one track and pick courses in depth.</p>
+<p>My advice is to add all the courses you are interested(max 22 credits) and
+attend the classes for a few days. Drop the ones which don't interest you or
+which seem too difficult to handle.</p>
+<p>My picks for Fall:</p>
+<ul class="simple">
+<li>Machine Learning : Course content is very interesting and Prof. Joachims is well known  for his work on <em>SVM</em></li>
+<li>Operating Systems Practicum: You will build an entire OS complete with
+scheduler,Networking and IPC.</li>
+<li>Information Retrieval: Prof. Ginsparg is very famous for his work on <a class="reference external" href="http://arxiv.org">arxiv</a></li>
+<li>Database Systems: The course goes in-depth into SQL queries and optimization.</li>
+</ul>
+</div>
+<div class="section" id="managing-course-work">
+<h1>Managing course work</h1>
+<p><strong>Clarify doubts about assignments and start working as soon as they are posted</strong></p>
+<p>I can't stress this enough. Failure to do so will ruin you of your whatever
+life you might have on your weekends.</p>
+<p>Do not take more than 14 credits (for an average person). Try to pick courses
+which have assigments and project work in groups rather than alone.
+The examinations here stress more about application of a concept than mere
+verbatim textbook content.</p>
+<p>Make time on Thursdays and Saturdays and play <em>ping-pong</em> or any other sport at
+Helen Newman Hall</p>
+</div>
+<div class="section" id="placements">
+<h1>Placements</h1>
+<p>Cornell career center is pretty amazing in attracting all the top companies for
+its career fair. Make sure you prepare for the interview by practising  dynamic
+programming code, efficient sorting/searching code, algorithm complexity and
+some design questions.</p>
+</div>
+<div class="section" id="winter-break">
+<h1>Winter break</h1>
+<p>Don't stay in Ithaca between Christmas and New year. It will be a ghost town.
+Make some travel plans, or better, try for some winter internships.</p>
+</div>
+
+    </div><!-- content -->
+</div><!-- entry -->
+    
+        <div class="entry">
+    <div class="header">
+        <h2><a href="http://shreesh.in/2011/12/27/2012-checklist/">2012  checklist</a></h2>
+        <div class="metadata">
+            <div class="authorship">
+                <span class="author">Posted by Shreesh on December 27, 2011 at 05:23 AM</span>
+                <!--<img class="license" alt="" src= "cc-by-sa.png" />-->
+            </div><!-- authorship -->
+        </div><!-- metadata -->
+    </div><!-- header -->
+
+    <div class="content">
+        <div class="section" id="tech-checklist-for-2012">
+<h1>Tech Checklist for 2012:</h1>
+<ul class="simple">
+<li><strong>onePage</strong>: A chrome plugin to better read html pages.[like clearly by
+evernote] [side-effect, learn chrome plugin development]</li>
+<li><strong>oneEdit</strong>: A lightweight online editor [side-effect, learn javascript]</li>
+<li><strong>tweetZilla</strong>: with continuous deployment, the natural way of tracking
+issues is to follow-up on feedback from users through tweets. parse
+the tweets, cluster by issue[use k-means clustering] and follow-up
+until they are fixed.</li>
+</ul>
+</div>
+<div class="section" id="life-checklist">
+<h1>Life checklist:</h1>
+<ul class="simple">
+<li><em>Be organized</em>: Need to stop missing the deadlines and schedules. Find
+a tool to organize everything.</li>
+<li><em>Less distraction</em>: At any point of time, I have 15-20 chrome tabs open
+in a window.[not to mention, multiple windows :-/]. I have an account
+in every new social/tech/recommendation/news-feed site, with far less
+interaction.</li>
+<li><em>Overcome Analyses-Paralysis</em>: Spend less time analyzing, more time
+implementing.</li>
+</ul>
+</div>
+<div class="section" id="personal-checklist">
+<h1>Personal checklist:</h1>
+<ul class="simple">
+<li>Pause more often: Stop rushing through life.</li>
+<li>Speak more: Have to stop talking to the point.[this is futile]</li>
+<li>Stop binge eating: The fact that I don't put on weight even after
+destroying kilos of chocolates, doesn't mean I should abuse my
+stomach and teeth.</li>
+<li>Continue not being an asshole.</li>
+</ul>
+</div>
+
+    </div><!-- content -->
+</div><!-- entry -->
+    
+        <div class="entry">
+    <div class="header">
+        <h2><a href="http://shreesh.in/2011/12/06/Stuff-I-learnt-in-4-months/">Stuff I learnt in 4 months</a></h2>
+        <div class="metadata">
+            <div class="authorship">
+                <span class="author">Posted by Shreesh on December 06, 2011 at 20:34 PM</span>
+                <!--<img class="license" alt="" src= "cc-by-sa.png" />-->
+            </div><!-- authorship -->
+        </div><!-- metadata -->
+    </div><!-- header -->
+
+    <div class="content">
+        <div class="section" id="first-off">
+<h1>First off</h1>
+<p>Its been almost a semester since I started in Cornell and without a blogpost.
+Which is unacceptable. Ergo the blog-gates will open.
+I love bullets, hence instead of a paragraphs, there will be bullet points.</p>
+<p>I honestly believe  that taking a break from work and studying for a year does
+wonders to your energy levels. I can now work faster, better and more eager to
+work.</p>
+<p>I dabbled for a while about continuing in research and thought for a while..</p>
+</div>
+<div class="section" id="the-lure-of-academia">
+<h1>The lure of Academia</h1>
+<ul class="simple">
+<li>Contagious enthusiasm: You are surrounded by (mostly)enthusiastic bunch.</li>
+<li>Work hard play hard lifestyle: No monotonicity.</li>
+<li>Flexible: With classes as rare as twice a week and as sparse as a sparse
+matrix, you have all the freedom to be a night owl or an early bird.</li>
+<li>In general the work is much more interesting.</li>
+</ul>
+</div>
+<div class="section" id="the-lure-of-corporate">
+<h1>The lure of Corporate</h1>
+<ul class="simple">
+<li>Money</li>
+</ul>
+<p><em>Sigh</em></p>
+</div>
+
+    </div><!-- content -->
+</div><!-- entry -->
+    
+    
+    <div class="navigation">
+        
+        
+        <div class="alignright">
+            <a href="http://shreesh.in/page2/">Next Page </a>
+        </div><!-- alignright -->
+        
+    </div><!-- navigation -->
+    
+    
+
+                    </div><!-- yui-b -->
+                </div><!-- yui-main -->
+                                <div class="yui-b sidebar">
+                    <div class="sidebox">
+                        <h2>Other Links</h2>
+                        <ul>
+                            <li><a href="http://shreesh.in/about/">About</a></li>
+                            <li><a href="http://shreesh.in/projects/">Projects</a></li>
+                            <li><a href="http://prerna.shreesh.in">Wedding Site</a></li>
+                            <li><a href="http://charles.shreesh.in">My River</a></li>
+                            <li><a href="http://shreesh.in/bart-blackboard/">Bart's blackboard</a></li>
+                            
+                        </ul>
+                    </div><!-- sidebox -->
+                <div class="sidebox">
+    <h2>Recent Posts</h2>
+    <ul>
+        <li><a href="http://shreesh.in/2013/02/08/River-of-News/">River of News</a></li>
+        
+        <li><a href="http://shreesh.in/2012/12/08/Wedding-Site/">The art of creating wedding invitations</a></li>
+        
+        <li><a href="http://shreesh.in/2012/10/26/Code/">Code</a></li>
+        
+        <li><a href="http://shreesh.in/2012/10/03/Product-Obsession/">About the Android UI Design Guidelines</a></li>
+        
+        <li><a href="http://shreesh.in/2012/08/07/The-Case-against-Apple/">Google &gt; Apple</a></li>
+        
+        <li><a href="http://shreesh.in/2012/08/06/Heres-to-Human-Curiosity/">Here's to Human Curiosity</a></li>
+        
+        <li><a href="http://shreesh.in/2012/07/26/Future-Is-Boring/">The Future is boring</a></li>
+        
+        <li><a href="http://shreesh.in/2012/01/17/Cornell-Meng-Guide/">Cornell MEng CS Survival guide</a></li>
+        
+        <li><a href="http://shreesh.in/2011/12/27/2012-checklist/">2012  checklist</a></li>
+        
+        <li><a href="http://shreesh.in/2011/12/06/Stuff-I-learnt-in-4-months/">Stuff I learnt in 4 months</a></li>
+        
+    </ul>
+</div><!-- sidebox -->
+
+                
+<div class="sidebox">
+    <h2>Daily Archives</h2>
+    <ul>
+        <li><a href="http://shreesh.in/2013/02/08/">February 08, 2013</a></li>
+        
+        <li><a href="http://shreesh.in/2012/12/08/">December 08, 2012</a></li>
+        
+        <li><a href="http://shreesh.in/2012/10/26/">October 26, 2012</a></li>
+        
+        <li><a href="http://shreesh.in/2012/10/03/">October 03, 2012</a></li>
+        
+        <li><a href="http://shreesh.in/2012/08/07/">August 07, 2012</a></li>
+        
+        <li><a href="http://shreesh.in/2012/08/06/">August 06, 2012</a></li>
+        
+        <li><a href="http://shreesh.in/2012/07/26/">July 26, 2012</a></li>
+        
+        <li><a href="http://shreesh.in/2012/01/17/">January 17, 2012</a></li>
+        
+        <li><a href="http://shreesh.in/2011/12/27/">December 27, 2011</a></li>
+        
+        <li><a href="http://shreesh.in/2011/12/06/">December 06, 2011</a></li>
+        
+    </ul>
+</div><!-- sidebox -->
+
+                
+<div class="sidebox">
+    <h2>Monthly Archives</h2>
+    <ul>
+        <li><a href="http://shreesh.in/2013/02/">February 2013</a></li>
+        
+        <li><a href="http://shreesh.in/2012/12/">December 2012</a></li>
+        
+        <li><a href="http://shreesh.in/2012/10/">October 2012</a></li>
+        
+        <li><a href="http://shreesh.in/2012/08/">August 2012</a></li>
+        
+        <li><a href="http://shreesh.in/2012/07/">July 2012</a></li>
+        
+        <li><a href="http://shreesh.in/2012/01/">January 2012</a></li>
+        
+        <li><a href="http://shreesh.in/2011/12/">December 2011</a></li>
+        
+        <li><a href="http://shreesh.in/2011/10/">October 2011</a></li>
+        
+        <li><a href="http://shreesh.in/2011/08/">August 2011</a></li>
+        
+        <li><a href="http://shreesh.in/2011/03/">March 2011</a></li>
+        
+    </ul>
+</div><!-- sidebox -->
+
+                
+<div class="sidebox">
+    <h2>Yearly Archives</h2>
+    <ul>
+        <li><a href="http://shreesh.in/2013/">2013</a></li>
+        
+        <li><a href="http://shreesh.in/2012/">2012</a></li>
+        
+        <li><a href="http://shreesh.in/2011/">2011</a></li>
+        
+        <li><a href="http://shreesh.in/2010/">2010</a></li>
+        
+        <li><a href="http://shreesh.in/2009/">2009</a></li>
+        
+        <li><a href="http://shreesh.in/2007/">2007</a></li>
+        
+        <li><a href="http://shreesh.in/2006/">2006</a></li>
+        
+    </ul>
+</div><!-- sidebox -->
+
+                
+                </div><!-- yui-b sidebar-->
+            </div><!-- bd -->
+            <div id="ft">
+                <p>Shreesh Ayachit &brvbar; with Python &amp; Vim </p>
+            </div><!-- ft -->
+        </div><!-- doc3 -->
+    </body>
+</html>

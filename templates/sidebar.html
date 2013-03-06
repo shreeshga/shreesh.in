@@ -1,22 +1,20 @@
-                <div class="yui-b sidebar">
-                    <div class="sidebox">
-                        <h2>Other Links</h2>
-                        <ul>
-                            <li><a href="{{ urlfor('html', type='staticrst',
-                                path='about') }}">About</a></li>
-                            <li><a href="{{ urlfor('html', type='staticrst',
-                                path='projects') }}">Projects</a></li>
-                            <li><a href="http://prerna.shreesh.in">Wedding Site</a></li>
-                            <li><a href="http://charles.shreesh.in">My River</a></li>
-                            <li><a href="{{ urlfor('html', type='staticrst',
-                                path='bart-blackboard') }}">Bart's blackboard</a></li>
-                            
-                        </ul>
-                    </div><!-- sidebox -->
-                {%- block sidebar %}
-                {% include 'sideboxes/_recent_posts.html' %}
-                {% include 'sideboxes/_daily_archives.html' %}
-                {% include 'sideboxes/_monthly_archives.html' %}
-                {% include 'sideboxes/_yearly_archives.html' %}
-                {% endblock %}
-                </div><!-- yui-b sidebar-->
+<div class="sidebox">
+  <h2>Other Links</h2>
+  <ul>
+      <li><a href="{{ urlfor('html', type='staticrst',
+          path='about') }}">About</a></li>
+      <li><a href="{{ urlfor('html', type='staticrst',
+          path='projects') }}">Projects</a></li>
+      <li><a href="http://prerna.shreesh.in">Wedding Site</a></li>
+      <li><a href="http://charles.shreesh.in">My River</a></li>
+      <li><a href="{{ urlfor('html', type='staticrst',
+          path='bart-blackboard') }}">Bart's blackboard</a></li>
+      
+  </ul>
+    {%- block sidebar %}
+    {% include 'sideboxes/_recent_posts.html' %}
+    {% include 'sideboxes/_daily_archives.html' %}
+    {% include 'sideboxes/_monthly_archives.html' %}
+    {% include 'sideboxes/_yearly_archives.html' %}
+    {% endblock %}
+</div><!-- yui-b sidebar-->

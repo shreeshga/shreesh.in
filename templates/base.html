@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/reset-fonts-grids/reset-fonts-grids.css"> 
         <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.0r4/build/base/base-min.css">
 
-        <link rel="stylesheet" href="{{ urlfor(None, type='static', path='css/style.css') }}" type="text/css" />
+        <link rel="stylesheet" href="{{ urlfor(None, type='static', path='css/screen.css') }}" type="text/css" />
         {% endblock %}
 
         <title>{% block documenttitle %}{{ config.doctitle }}{% endblock %}</title>
@@ -30,26 +30,26 @@
         </script>
     </head>
     <body>
-        <div id="{{ config.divdocid }}" class="{{ config.divdocclass }}">
-            <div id="hd">
+         <div id="header">
                 <h1 class="title">
                     <a href="{{ urlfor(None) }}" title="Home">
                         {{ config.sitetitle }}
                     </a>
                 </h1>
                 <div class="tagline">{{ config.tagline }}</div>
-            </div><!-- hd -->
-            <div id="bd">
-                <div id="yui-main">
-                    <div class="yui-b">
-                        {%- block content %}{% endblock %}
-                    </div><!-- yui-b -->
-                </div><!-- yui-main -->
-                {% include 'sidebar.html' %}
-            </div><!-- bd -->
-            <div id="ft">
-                {% include 'footer.html' %}
-            </div><!-- ft -->
-        </div><!-- doc3 -->
+        </div>
+        <div class="colmask leftmenu">
+          <div class="colleft">
+            <div class="col1">
+                {%- block content %}{% endblock %}
+            </div>
+            <div class="col2">
+              {% include 'sidebar.html' %}
+            </div>
+          </div>
+        </div>             
+        <div id="footer">
+          {% include 'footer.html' %}
+        </div><!-- ft -->
     </body>
-</html>
+  </html>
