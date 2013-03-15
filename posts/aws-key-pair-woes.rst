@@ -1,3 +1,18 @@
+. This is a comment (note the lack of a trailing double colon).
+
+.. time:: 16:30
+.. The timezone must be supported by PyTZ
+.. timezone:: UTC
+.. author:: shreesh
+.. updated:: 2013-03-14 16:32
+
+.. All is not a special feed.  Content must be added to 'all' just like any
+.. other feed.
+.. feed:: all
+
+.. copyright:: Creative Commons Attribution 3.0 Unported
+
+
 Getting locked out of AWS instance
 ------------------------------------
 
