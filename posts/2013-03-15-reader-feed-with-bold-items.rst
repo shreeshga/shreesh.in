@@ -1,5 +1,3 @@
-. This is a comment (note the lack of a trailing double colon).
-
 .. time:: 17:00
 .. timezone:: UTC
 .. author:: shreesh
