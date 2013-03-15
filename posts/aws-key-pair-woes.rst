@@ -1,5 +1,3 @@
-. This is a comment (note the lack of a trailing double colon).
-
 .. time:: 16:30
 .. The timezone must be supported by PyTZ
 .. timezone:: UTC
