@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>char stream</title><link>http:%20//shreesh.in/</link><description></description><atom:link href="http:%20//shreesh.in/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 03 Apr 2013 00:00:00 -0400</lastBuildDate><item><title>Share files from commandline</title><link>http:%20//shreesh.in/share-files-commandline.html</link><description>&lt;p&gt;How do you share a short temporary file right from your commandline instead
+unnecessary mouse clicks on a browser?&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;setup a developer account at &lt;a class="reference external" href="http://filepicker.io"&gt;filepicker.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Get the API key&lt;/li&gt;
+&lt;li&gt;in terminal, cd to the directory where you have the file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;curl -F &lt;span class="nv"&gt;fileUpload&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;@&amp;lt;filename&amp;gt; &lt;span class="s1"&gt;&amp;#39;https://www.filepicker.io/api/&amp;lt;path&amp;gt;?key=&amp;lt;apikey&amp;gt;&amp;amp;filename=&amp;lt;filename&amp;gt;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;The response will have the uploaded file path.&lt;/div&gt;
+&lt;div class="line"&gt;IM the path to friend.&lt;/div&gt;
+&lt;div class="line"&gt;Done.&lt;/div&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">shreesh</dc:creator><pubDate>Wed, 03 Apr 2013 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2013-04-03:share-files-commandline.html</guid></item><item><title>RSS Readers with unread items stresses me out</title><link>http:%20//shreesh.in/reader-feed-with-bold-items.html</link><description>&lt;p&gt;Something about the big bold letters with numbers in brackets piling up each day makes me feel that I am missing out on &lt;em&gt;so&lt;/em&gt; many important stuff happening.&lt;/p&gt;
+&lt;p&gt;But I just  can't read them all.And so, I let them pile on,Each day reading one or two latest news from each feed and generally ignoring other news stories.&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;Which made me trim out my huge list of Google RSS feeds to just three categories:&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;Cricket News&lt;/li&gt;
+&lt;li&gt;Local News&lt;/li&gt;
+&lt;li&gt;International  News&lt;/li&gt;
+&lt;li&gt;Al-Jazeera&lt;/li&gt;
+&lt;li&gt;XKCD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;And yet, there were unread items every single day.&lt;/p&gt;
+&lt;p&gt;Which is why i ditched google reader and now i just scroll though my news river : &lt;a class="reference external" href="http://charles.shreesh.in"&gt;charles.shreesh.in&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I am not saying you should use it, but I am not saying you shouldn't either.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">shreesh</dc:creator><pubDate>Fri, 15 Mar 2013 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2013-03-15:reader-feed-with-bold-items.html</guid></item><item><title>Getting locked out of AWS instance</title><link>http:%20//shreesh.in/aws-key-pair-woes.html</link><description>&lt;p&gt;Each AWS instance is associated with a key pair. And if ever you decide to login from a different system,&lt;/p&gt;
+&lt;p&gt;Do this:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;create a new_volume.&lt;/li&gt;
+&lt;li&gt;create a new_instance with a new_key pair.&lt;/li&gt;
+&lt;li&gt;mount your original_volume (say /mnt/)&lt;/li&gt;
+&lt;li&gt;Start your new_volume with new_instance.&lt;/li&gt;
+&lt;li&gt;ssh into it with new_key pair and execute&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;cat ~/.ssh/authorized_keys &amp;gt;&amp;gt; /mnt/home/&amp;lt;user&amp;gt;/.ssh/authorized_keys
+&lt;/pre&gt;&lt;/div&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;exit.&lt;/li&gt;
+&lt;li&gt;stop your new_instace with new_volume&lt;/li&gt;
+&lt;li&gt;start your original_instance with original_volume&lt;/li&gt;
+&lt;li&gt;you are back in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;messy.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">shreesh</dc:creator><pubDate>Wed, 13 Mar 2013 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2013-03-13:aws-key-pair-woes.html</guid></item><item><title>River of News</title><link>http:%20//shreesh.in/River-of-News.html</link><description>&lt;div class="section" id="river-of-news"&gt;
+&lt;h2&gt;River of News&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://davewiner.com/"&gt;Dave Winer&lt;/a&gt;  defines &amp;quot;river of news&amp;quot; as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Standard news readers organize feeds into groups, and then under each feed are items. If there's an unread item in a feed, the feed's name is bold. If you leave the cursor on an item long enough the feed name goes un-bold. These programs work much like mail readers, so much so that they are sometimes even integrated into mail readers.&lt;/p&gt;
+&lt;p&gt;But there's another kind of reader, an aggregator, that works differently, and I think more efficiently for the human reader. Instead of having to hunt for new stories by clicking on the titles of feeds, you just view the page of new stuff and scroll through it. It's like sitting on the bank of a river, watching the boats go by. If you miss one, no big deal. You can even make the river flow backward by moving the scollbar up. To me, this more approximates the way I read a print newspaper, actually it's the way I wish I could read a print newspaper -- instead of having to go to the stories, they come to me. This makes it easier for me to use my brain's powerful scanning mechanism. It's faster, I can subscribe to more, and my fingers do less work.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I was sold.&lt;/p&gt;
+&lt;p&gt;But,there was no simple setup instructions on ubuntu for his great-looking &lt;a class="reference external" href="http://river2.newsriver.org/"&gt;River2&lt;/a&gt; feed reader.&lt;/p&gt;
+&lt;p&gt;And yesterday,  I found &lt;a class="reference external" href="http://www.intertwingly.net/code/venus/"&gt;Planet Venus&lt;/a&gt;, which is a simple river of news  aggregator.&lt;/p&gt;
+&lt;p&gt;With in a few minutes I had my news feed up on &lt;a class="reference external" href="http://charles.shreesh.in"&gt;Charles River&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Refer: &lt;a class="reference external" href="http://library.linode.com/web-applications/social-networking/planet/ubuntu-10.04-lucid"&gt;How to install Venus on Ubuntu&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">shreesh</dc:creator><pubDate>Fri, 08 Feb 2013 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2013-02-08:River-of-News.html</guid></item><item><title>The art of creating wedding invitations</title><link>http:%20//shreesh.in/Wedding-Site.html</link><description>&lt;div class="section" id="the-art-of-creating-wedding-invitations"&gt;
+&lt;h2&gt;The art of creating wedding invitations&lt;/h2&gt;
+&lt;p&gt;Turns out; I am getting married. So, I wanted to create a web site instead of
+mailing everyone with a Megabytes of scanned invitation [I know, not very Indian of me].&lt;/p&gt;
+&lt;p&gt;Being a  programmer, using e-wedding or such other hosting sites is wholly
+&lt;em&gt;unacceptable&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I had worked with Python Flask before, so I quickly put together a static site
+using the &lt;a class="reference external" href="https://github.com/mbr/flask-bootstrap"&gt;Flask-Bootstrap-Responsive&lt;/a&gt; plugin [see? How easily I  put together
+a site with best of the breed] and threw it in my AWS micro instance.&lt;/p&gt;
+&lt;p&gt;I had the idea of creating a joint-timeline of Prerna &amp;amp; me, with special
+moments along with some pictures. Turns out Facebook has the feature in &amp;quot;See
+Friendship&amp;quot; [who knew?]. I found an awesome js library &lt;a class="reference external" href="http://timeline.verite.co/"&gt;TimelineJS&lt;/a&gt; which reads data from  published Google
+spreadsheet, parses the data and displays a nice timeline of events.&lt;/p&gt;
+&lt;p&gt;So, We both started filling in the event details in a shared Google drive &lt;a class="reference external" href="https://docs.google.com/spreadsheet/pub?key=0AtNxSwigiymodHR5ZEFnOUN0T3ZhUWJNRWEzTXFJemc&amp;amp;single=true&amp;amp;gid=0&amp;amp;output=html"&gt;Spreadsheet&lt;/a&gt;.
+I, for the most part, edited the sheet from the Android Google &lt;em&gt;Drive App&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I wanted to have a message board to get people to leave  a message.
+[I hate the guest book feature which is essentially a text box and submit
+button] Sadly, Google+ does not yet support a writable comment box plugin.
+So, went with the least desirable FB comment box.&lt;/p&gt;
+&lt;p&gt;TL;DR: &lt;a class="reference external" href="http://www.youtube.com/watch?v=unkIVvjZc9Y"&gt;HDFU&lt;/a&gt; and write your own
+wedding site.&lt;/p&gt;
+&lt;p&gt;Also, &lt;a class="reference external" href="http://prerna.shreesh.in"&gt;Wedding!&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Sat, 08 Dec 2012 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2012-12-08:Wedding-Site.html</guid></item><item><title>Code</title><link>http:%20//shreesh.in/Code.html</link><description>&lt;p&gt;There are a lot of guidelines of what constitutes good code; fewer bugs, easier
+to understand and so on. But they are too vague to describe.
+For me, If I had to define good code specifically&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;strong&gt;Any code which I can fix&lt;/strong&gt;&lt;/blockquote&gt;
+&lt;p&gt;And consequently, any code which makes it harder for me to fix is bad.
+For Example, the point of modular programming is to define functions which
+can be described by their name. So that when you are reading code with folding
+enabled, you don't have to read through to each function to guess what its
+doing. Some programmers code like this&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;onethingFunc&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;doSomething&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;doSomethingElse&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;doSomeOtherThing&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;andOn&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;andOn&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;This code reminds me of assembly instructions.&lt;/div&gt;
+&lt;div class="line"&gt;One instruction per line.&lt;/div&gt;
+&lt;div class="line"&gt;Very hard to read.&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Instead, if the above code  was something like this:&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;doSomething&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;do&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;thing&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+
+&lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;doSomethingElse&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;do&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;thing&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+
+&lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;doSomeOtherThing&lt;/span&gt;&lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;do&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;other&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;thing&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Makes life &lt;em&gt;so&lt;/em&gt; much better.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Fri, 26 Oct 2012 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2012-10-26:Code.html</guid></item><item><title>Android UI Design Guideline</title><link>http:%20//shreesh.in/Product-Obsession.html</link><description>&lt;p&gt;I was looking forward to &lt;em&gt;The Android App Clinic: Travel Booking and Planning&lt;/em&gt;
+[&lt;a class="reference external" href="https://www.youtube.com/watch?feature=player_embedded&amp;amp;v=k1_8N-KToPs#t=2306s"&gt;link&lt;/a&gt;] by Reto Meier &amp;amp; Ian Ni-Lewis. I even put in a little unnamed comment
+and a thumbs up for KAYAK.
+[Notice the lowercase 'I'].&lt;/p&gt;
+&lt;blockquote&gt;
+&amp;quot;i work for kayak and would love some feedback.&amp;quot;&lt;/blockquote&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;Although it was a good third-perspective, It had some problems:&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;Too much focus on  Android UI Design guideline.&lt;/li&gt;
+&lt;li&gt;Considering they review many many apps, seemingly common repetitive UI
+patterns start to annoy them [Like the &amp;quot;Rate Me Rate Me!!&amp;quot; dialog]&lt;/li&gt;
+&lt;li&gt;A very cursory review, overlooking the content and just focusing on the
+presentation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;They followed it up with a redesign of the KAYAK [and other apps] so that its
+more consistent with the Android UI pattern[&lt;a class="reference external" href="https://developers.google.com/live/shows/ahNzfmdvb2dsZS1kZXZlbG9wZXJzcg4LEgVFdmVudBjT3pMEDA/"&gt;design_link&lt;/a&gt;].&lt;/p&gt;
+&lt;p&gt;But what struck me most, was their absolute focus on enforcing the Android UI
+patterns among all the apps. Which isn't surprising since the overall Android
+experience is their &lt;strong&gt;Product&lt;/strong&gt;. And they were right in being particular about
+it.&lt;/p&gt;
+&lt;p&gt;The problem is that, the companies building those apps want to promote
+&lt;em&gt;their&lt;/em&gt; product and want to have a consistent experience across devices.&lt;/p&gt;
+&lt;p&gt;Hence, the priorities of consumer-facing companies and device platform creators are
+orthogonal.&lt;/p&gt;
+&lt;p&gt;But when I start to use the apps as normal user, I can 'decipher' most of the
+UI elements and for the most part don't care if an app misses the ActionBar
+pattern.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;I am obsessed with my product[my time], and until the apps don't waste it.&lt;/div&gt;
+&lt;div class="line"&gt;I would live with a gradient header with a center text.&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;PS: As an android fan, I would love to see all the apps having the same  Android UI pattern.&lt;/div&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Wed, 03 Oct 2012 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2012-10-03:Product-Obsession.html</guid></item><item><title>Google &gt; Apple</title><link>http:%20//shreesh.in/The-Case-against-Apple.html</link><description>&lt;dl class="docutils"&gt;
+&lt;dt&gt;A normal day interaction with my mobile:[iPhone or Android]&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;Check GMail.&lt;/li&gt;
+&lt;li&gt;Check Weather.&lt;/li&gt;
+&lt;li&gt;Use Google maps&lt;/li&gt;
+&lt;li&gt;Browse Twitter,Zite.&lt;/li&gt;
+&lt;li&gt;Read a pdf file.&lt;/li&gt;
+&lt;li&gt;Open up saved documents, pages on &lt;em&gt;Evernote&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Play an occasional game.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Development mode&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Google for things which I have heard for first time.&lt;/li&gt;
+&lt;li&gt;Check time throughout the day.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;I heavily use Google products irrespective of the mobile, which makes me
+believe that  Google clearly has a better business model.
+Even though I have never clicked on google ads in GMail nor in search results,yet
+Google had over $37 billion in revenue[2011] [&lt;a class="reference external" href="http://www.msnbc.msn.com/id/48369286/ns/business-motley_fool/#.UCMsTmNAYUo"&gt;msnbc&lt;/a&gt;], proving there &lt;em&gt;is&lt;/em&gt; some value in text ads afterall.&lt;/p&gt;
+&lt;p&gt;But, just the revenue of Apple from iPhone  was $50 billion.&lt;/p&gt;
+&lt;p&gt;Even though Google's business model is &lt;em&gt;making smart algorithms to make people click
+ads&lt;/em&gt;, It is still in better position than Apple's presence in mobile device
+market. Samsung is catching up fast and people seem to forget how fast market leaders
+are destroyed[RIM, Nokia].&lt;/p&gt;
+&lt;p&gt;Google on the other hand, does not have a serious competitor in the ads business and
+its safe to assume that it is going to be the leader for a few more years to
+come.[And hopefully to be the first to hit upon an alternative  business model].&lt;/p&gt;
+&lt;p&gt;The sheer awesomeness of Google Knowledge graph, Android platform,ROS support,Google Maps,Optic network Self-driven cars has beaten out the Apple fan boy in me.&lt;/p&gt;
+&lt;p&gt;PS: Facebook you say? &lt;em&gt;Oh Pls!&lt;/em&gt; [&lt;a class="reference external" href="http://www.businessinsider.com/chart-of-the-day-pe-ratio-for-tech-companies-2012-8"&gt;businessinsider&lt;/a&gt;]&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Tue, 07 Aug 2012 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2012-08-07:The-Case-against-Apple.html</guid></item><item><title>Here's to Human Curiosity</title><link>http:%20//shreesh.in/Heres-to-Human-Curiosity.html</link><description>&lt;p&gt;&lt;a class="reference external" href="http://www.universetoday.com/14824/distance-from-earth-to-mars/#ixzz22k4VJ3eY"&gt;distance from earth to mars :&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+Times of close approach are called ”launch windows” in the spaceflight vernacular.
+Even though Mars doesn’t always come close enough for clear visual observation, navigators have an opportunity to launch a spacecraft to Mars every 26 months. Spaceships don’t just take off in any direction.
+Escaping Earth’s gravitational pull requires a tremendous amount of energy. Even with that energy a spacecraft would never reach the orbit of Mars without a little help from its friends. To get a spacecraft to Mars, navigators time the launch so the spacecraft reaches Mars when it is on the opposite side of the Sun from Earth in order to take advantage of solar gravity.
+The Sun’s gravitational pull will cause a spacecraft to “fall” toward the Sun. This motion follows predictable physical laws. These trajectories and orbits are collectively referred to as Hohmann transfer orbits. ”What you want to do is launch the spacecraft so it goes around the Sun to meet Mars,” says Moriba Jah at NASA’s Jet Propulsion Laboratory, a navigator on the Mars Reconnaissance Orbiter, We give it the least amount of energy possible and let the Sun’s gravity do as much as it can for us. As a result the spacecraft comes up on Mars from behind, but instead of sailing past, a short blast from the boosters allow it to slow down and be captured into orbit by Mars’ gravity. The trip takes about 214 days.&lt;/blockquote&gt;
+&lt;p&gt;First image of Mars Horizon sent by &lt;em&gt;Curiosity&lt;/em&gt;:&lt;/p&gt;
+&lt;img alt="http://shreesh.in/images/mars.jpg" src="http://shreesh.in/images/mars.jpg" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Mon, 06 Aug 2012 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2012-08-06:Heres-to-Human-Curiosity.html</guid></item><item><title>The Future is boring</title><link>http:%20//shreesh.in/Future-Is-Boring.html</link><description>&lt;p&gt;Recently I read an article on the &lt;a class="reference external" href="http://scienceblogs.com/startswithabang/2012/07/18/how-big-is-the-entire-universe/(here)"&gt;size_of_the_univese&lt;/a&gt; and it ends with a rather depressing line:&lt;/p&gt;
+&lt;blockquote&gt;
+Once you put our knowledge about dark matter and dark energy in there,
+you’ll realize that we’ll never see more of the Universe than we can right now.&lt;/blockquote&gt;
+&lt;p&gt;Well, Thats a bummer. No wonder NASA isn't getting any funding.&lt;/p&gt;
+&lt;p&gt;People should  stop making such depressing posts. Some people like me, have lived
+life thinking some time in the future, we might drop a visit to the far end of the universe and have a cup of coffee with aliens. Such news need to be put in spoiler alerts.&lt;/p&gt;
+&lt;p&gt;In other news, That boson which was observed, might &lt;em&gt;might&lt;/em&gt; just be the Higgs boson.
+If its not the higgs boson, I want my hours of &amp;quot;Higg's boson goggling&amp;quot; back.
+The only real aspiration in my life was to understand the world
+we are in. Since the news of the boson, I try to imagine every thing in
+terms of how the bosons might be interacting with an imaginary &amp;quot;field&amp;quot;.
+|  Although, I &lt;em&gt;try&lt;/em&gt; not to do it when I am around people.&lt;/p&gt;
+&lt;p&gt;Piling on top of it are the observations which totally defy what I have learnt
+in school. For example, unicellular organisms aren't the smallest anymore.
+&lt;a class="reference external" href="http://blogs.discovermagazine.com/notrocketscience/2011/11/30/how-fairy-wasps-cope-with-being-smaller-than-amoebas"&gt;There are wasps the size of an amoeba!&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Imagine the size of the cells!&lt;/div&gt;
+&lt;div class="line"&gt;I totally take back my admiration for Amoeba,Paramecia and such others.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Wait, It gets worse:&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;No more Batman movies from Nolan.&lt;/li&gt;
+&lt;li&gt;The never ending tirade against Facebook/Microsoft/Google/Apple.&lt;/li&gt;
+&lt;li&gt;App developers and &lt;em&gt;CEO n00bs&lt;/em&gt;  suddenly realizing app revenue can't pay them
+enough money for  their grand children finish medical school.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I can't wait to die [oh, and also  verify my hindu beliefs]&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Thu, 26 Jul 2012 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2012-07-26:Future-Is-Boring.html</guid></item><item><title>Cornell MEng CS Survival guide</title><link>http:%20//shreesh.in/Cornell-Meng-Guide.html</link><description>&lt;p&gt;Cornell is a &lt;strong&gt;great&lt;/strong&gt; place to study. Having worked for quite sometime, I can
+better appreciate and analyse the whole experience of academia.&lt;/p&gt;
+&lt;p&gt;Based on my semester worth of experience here are my two cents on surviving the
+course.&lt;/p&gt;
+&lt;div class="section" id="about-ithaca"&gt;
+&lt;h2&gt;About Ithaca&lt;/h2&gt;
+&lt;p&gt;Its beautiful in summer and white as Gandalf during winters.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Collegetown&lt;/em&gt; is a hub of activity and most certainly the place to be on a Friday
+night. There are quite a few pubs, so getting drunk and studying should be
+possible on a weekly basis.&lt;/p&gt;
+&lt;p&gt;There are beautiful parks,lakes,gorges and falls which should not be missed.
+PS: The airport is no bigger than a dining hall and the planes are small bombardier aircrafts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="selecting-courses"&gt;
+&lt;h2&gt;Selecting courses&lt;/h2&gt;
+&lt;p&gt;You need to complete 30 credits in two semesters.&lt;/p&gt;
+&lt;p&gt;There are two tracks: Systems and Machine Learning.&lt;/p&gt;
+&lt;p&gt;Systems courses are related to OS, Database and compilers.
+Machine Learning courses deal with Machine learning algorithms, Data Analysis and Robotics.
+Although you can take any courses, its best if you stick one track and pick courses in depth.&lt;/p&gt;
+&lt;p&gt;My advice is to add all the courses you are interested(max 22 credits) and
+attend the classes for a few days. Drop the ones which don't interest you or
+which seem too difficult to handle.&lt;/p&gt;
+&lt;p&gt;My picks for Fall:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Machine Learning : Course content is very interesting and Prof. Joachims is well known  for his work on &lt;em&gt;SVM&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Operating Systems Practicum: You will build an entire OS complete with
+scheduler,Networking and IPC.&lt;/li&gt;
+&lt;li&gt;Information Retrieval: Prof. Ginsparg is very famous for his work on &lt;a class="reference external" href="http://arxiv.org"&gt;arxiv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Database Systems: The course goes in-depth into SQL queries and optimization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="managing-course-work"&gt;
+&lt;h2&gt;Managing course work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Clarify doubts about assignments and start working as soon as they are posted&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I can't stress this enough. Failure to do so will ruin you of your whatever
+life you might have on your weekends.&lt;/p&gt;
+&lt;p&gt;Do not take more than 14 credits (for an average person). Try to pick courses
+which have assigments and project work in groups rather than alone.
+The examinations here stress more about application of a concept than mere
+verbatim textbook content.&lt;/p&gt;
+&lt;p&gt;Make time on Thursdays and Saturdays and play &lt;em&gt;ping-pong&lt;/em&gt; or any other sport at
+Helen Newman Hall&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="placements"&gt;
+&lt;h2&gt;Placements&lt;/h2&gt;
+&lt;p&gt;Cornell career center is pretty amazing in attracting all the top companies for
+its career fair. Make sure you prepare for the interview by practising  dynamic
+programming code, efficient sorting/searching code, algorithm complexity and
+some design questions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="winter-break"&gt;
+&lt;h2&gt;Winter break&lt;/h2&gt;
+&lt;p&gt;Don't stay in Ithaca between Christmas and New year. It will be a ghost town.
+Make some travel plans, or better, try for some winter internships.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Tue, 17 Jan 2012 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2012-01-17:Cornell-Meng-Guide.html</guid></item><item><title>2012 checklist</title><link>http:%20//shreesh.in/2012-checklist.html</link><description>&lt;div class="section" id="tech-checklist-for-2012"&gt;
+&lt;h2&gt;Tech Checklist for 2012:&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;onePage&lt;/strong&gt;: A chrome plugin to better read html pages.[like clearly by
+evernote] [side-effect, learn chrome plugin development]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;oneEdit&lt;/strong&gt;: A lightweight online editor [side-effect, learn javascript]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tweetZilla&lt;/strong&gt;: with continuous deployment, the natural way of tracking
+issues is to follow-up on feedback from users through tweets. parse
+the tweets, cluster by issue[use k-means clustering] and follow-up
+until they are fixed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="life-checklist"&gt;
+&lt;h2&gt;Life checklist:&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;em&gt;Be organized&lt;/em&gt;: Need to stop missing the deadlines and schedules. Find
+a tool to organize everything.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Less distraction&lt;/em&gt;: At any point of time, I have 15-20 chrome tabs open
+in a window.[not to mention, multiple windows :-/]. I have an account
+in every new social/tech/recommendation/news-feed site, with far less
+interaction.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Overcome Analyses-Paralysis&lt;/em&gt;: Spend less time analyzing, more time
+implementing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="personal-checklist"&gt;
+&lt;h2&gt;Personal checklist:&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Pause more often: Stop rushing through life.&lt;/li&gt;
+&lt;li&gt;Speak more: Have to stop talking to the point.[this is futile]&lt;/li&gt;
+&lt;li&gt;Stop binge eating: The fact that I don't put on weight even after
+destroying kilos of chocolates, doesn't mean I should abuse my
+stomach and teeth.&lt;/li&gt;
+&lt;li&gt;Continue not being an asshole.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Tue, 27 Dec 2011 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2011-12-27:2012-checklist.html</guid></item><item><title>Stuff I learnt in 4 months</title><link>http:%20//shreesh.in/Stuff-I-learnt-in-4-months.html</link><description>&lt;div class="section" id="first-off"&gt;
+&lt;h2&gt;First off&lt;/h2&gt;
+&lt;p&gt;Its been almost a semester since I started in Cornell and without a blogpost.
+Which is unacceptable. Ergo the blog-gates will open.
+I love bullets, hence instead of a paragraphs, there will be bullet points.&lt;/p&gt;
+&lt;p&gt;I honestly believe  that taking a break from work and studying for a year does
+wonders to your energy levels. I can now work faster, better and more eager to
+work.&lt;/p&gt;
+&lt;p&gt;I dabbled for a while about continuing in research and thought for a while..&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-lure-of-academia"&gt;
+&lt;h2&gt;The lure of Academia&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Contagious enthusiasm: You are surrounded by (mostly)enthusiastic bunch.&lt;/li&gt;
+&lt;li&gt;Work hard play hard lifestyle: No monotonicity.&lt;/li&gt;
+&lt;li&gt;Flexible: With classes as rare as twice a week and as sparse as a sparse
+matrix, you have all the freedom to be a night owl or an early bird.&lt;/li&gt;
+&lt;li&gt;In general the work is much more interesting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-lure-of-corporate"&gt;
+&lt;h2&gt;The lure of Corporate&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Money&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Sigh&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Tue, 06 Dec 2011 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2011-12-06:Stuff-I-learnt-in-4-months.html</guid></item><item><title>The Spirit of C</title><link>http:%20//shreesh.in/The-Spirit-of-C.html</link><description>&lt;div class="section" id="dennis-ritchie"&gt;
+&lt;h2&gt;Dennis Ritchie&lt;/h2&gt;
+&lt;p&gt;Enough has been said and written about dmr's contribution to the modern digital era. What's missing
+though, is reiteration of the principles on which C was written. If you are one of those Java/C# and other HLL fan boys,
+it will serve you well to glance over the below section.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-spirit-of-c"&gt;
+&lt;h2&gt;The Spirit of C:&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Trust the programmer.&lt;/li&gt;
+&lt;li&gt;Don't prevent the programmer from doing what needs to be done.&lt;/li&gt;
+&lt;li&gt;Keep the language small and simple.&lt;/li&gt;
+&lt;li&gt;Provide only one way to do an operation.&lt;/li&gt;
+&lt;li&gt;Make it fast, even if it is not guaranteed to be portable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Sun, 16 Oct 2011 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2011-10-16:The-Spirit-of-C.html</guid></item><item><title>Startups and College</title><link>http:%20//shreesh.in/Startups-and-College-.html</link><description>&lt;div class="section" id="working-in-a-tech-startup"&gt;
+&lt;h2&gt;Working in a Tech Startup&lt;/h2&gt;
+&lt;div class="section" id="the-experience"&gt;
+&lt;h3&gt;The Experience&lt;/h3&gt;
+&lt;p&gt;Working in a startup is an experience in itself. By startups I mean
+those working on lean budgets and crazy schedules, Where the
+responsibility and trust employers put on people make them work as if
+working for their own company. And no large company can motivate people
+to that level.&lt;/p&gt;
+&lt;p&gt;But its no easy going. You need to wear a shirt saying &amp;quot;I never log
+out&amp;quot;. And thats how you will be working; without logging out. Because
+when the world unwinds, you push code. [Notice how I trivialized
+everything by saying &amp;quot;push code&amp;quot;]
+Considering the time and effort required, its no wonder there is a long
+list of young entrepreneurs.&lt;/p&gt;
+&lt;p&gt;There is another aspect of working in an upcoming company which gets
+shadowed by the term &amp;quot;startup&amp;quot;; cost effectiveness. Invariably most of
+the small and upcoming companies are short of cash and resources. When
+you decide to work there, you need to understand and respect the
+shortage of resources and still be willing to work. For most[at least in
+India] It will seem a ridiculous idea to work at a lesser salary and
+still be happy about it. They probably won't matter because those aren't
+the ones you want to have anyway. Nothing can replace true
+interest/passion/willingness for technology.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-fun"&gt;
+&lt;h3&gt;The Fun&lt;/h3&gt;
+&lt;p&gt;Oh you will have fun there, and loads of it. People who hire you are
+same as you are. Nerdy with a touch of Management. Most of the time they
+will be your friends. You will spend long weekdays or even weekends with
+them, And any appreciation or rebuke will be equally direct. And that is
+good. You wouldn't want to work where recognition depends on your ass
+kissing abilities.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="the-effort"&gt;
+&lt;h3&gt;The Effort&lt;/h3&gt;
+&lt;p&gt;It takes a lot to run a small company. I have seen my friend doing it,
+and its incredibly hard. I cannot do it, at least not as of now. It
+takes a lot of context switching, thick skin to handle customers, a
+hyper active brain, and lots of perseverance. And thats why I have
+immense respect for people who do it. And I like to be around such
+people [1].&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="saving-the-penny"&gt;
+&lt;h3&gt;Saving the Penny&lt;/h3&gt;
+&lt;p&gt;You will learn to be frugal, getting creative with saving money whenever
+you can. Working out of your home, friends home, barn, shed... you get
+the idea, using public transport instead of your comfortable car, double
+checking before you blow off money on a weekend.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="living-as-a-student"&gt;
+&lt;h3&gt;Living as a Student&lt;/h3&gt;
+&lt;p&gt;Its exactly as working in a startup, [but you don't get paid as much :)
+]. Thats why the transition from a startup to a student is a breeze.
+Every point above holds true for a student.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;quot;I am having such a good time&amp;quot;&lt;/em&gt; - Queen&lt;/p&gt;
+&lt;p&gt;[1]: I worked for a year with the guys behind &lt;a class="reference external" href="http://nh7.in"&gt;NH7&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Fri, 26 Aug 2011 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2011-08-26:Startups-and-College-.html</guid></item><item><title>SQLAlchemy</title><link>http:%20//shreesh.in/SQLAlchemy-.html</link><description>&lt;div class="section" id="me-no-wants-mysql-statements"&gt;
+&lt;h2&gt;Me no wants mySQL statements&lt;/h2&gt;
+&lt;p&gt;ORM simply put;lets you define classes which get mapped to tables(relations) in
+[my]SQL. Thats perfect If you are used to working with classes in C++ as
+I am. You just define class and add class members which correspond to
+the attributes of a table. The Fun part is, you can use inheritance to
+map related tables.&lt;/p&gt;
+&lt;p&gt;I use &lt;a class="reference external" href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt; as my Web Framework. Armin has
+written a convenient wrapper FLask_SQLAlchemy. It takes away many of
+the headaches of using SQLAlchemy and gives a single class interface.&lt;/p&gt;
+&lt;div class="section" id="user-activity-table"&gt;
+&lt;h3&gt;User Activity Table&lt;/h3&gt;
+&lt;p&gt;Say you want to create a table called 'useractivity' which every user
+activity. But usually there can be more than one 'type' of user
+activity, like user checking into a place OR user making a comment on a
+checking. So, In OO methodology, We need a generic UserActivity class;
+and two derived classes: PlaceActivity and ConversationActivity. You
+would declare the following classes:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;UserActivity&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Model&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;__tablename__&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;useractivity&amp;#39;&lt;/span&gt;
+    &lt;span class="nb"&gt;id&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Integer&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;primary_key&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;user_id&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Integer&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ForeignKey&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;user.id&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+    &lt;span class="nb"&gt;type&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;nullable&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;date_time&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;DateTime&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;message&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2000&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+    &lt;span class="n"&gt;lat&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Float&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;lng&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Float&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;__mapper_args__&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;polymorphic_on&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;PlaceActivity&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;UserActivity&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;__tablename__&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
+    &lt;span class="n"&gt;__mapper_args__&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;polymorphic_identity&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;place&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="n"&gt;__public__&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;id&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;user_id&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;type&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;type_id&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;date_time&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;points&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;message&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;lat&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;lng&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;place_type&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Integer&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ForeignKey&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;placetype.id&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+    &lt;span class="n"&gt;place_id&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Integer&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;place_points&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Integer&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;user_id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;place_id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;date_time&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;lat&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;lng&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;UserActivity&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;user_id&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;date_time&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;lat&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;lng&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;place_id&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;place_id&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;place_type&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Place&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;query&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filter_by&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;place_id&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;first&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;type_id&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;place_points&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;PlaceType&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;query&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filter_by&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;place_type&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;first&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;points&lt;/span&gt;
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;ConversationActivity&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;UserActivity&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;__tablename__&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
+    &lt;span class="n"&gt;__mapper_args__&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;polymorphic_identity&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;conversation&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="n"&gt;__public__&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;id&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;user_id&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;type&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;type_id&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;date_time&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;points&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;message&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;lat&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;lng&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;conv_type&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Integer&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ForeignKey&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;convotypes.id&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+    &lt;span class="n"&gt;conv_id&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Integer&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;conv_points&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Integer&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;conv_result&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Column&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Integer&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;user_id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;conv_id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;result&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;date_time&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;lat&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;lng&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;UserActivity&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;user_id&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;date_time&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;lat&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;lng&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;conv_id&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;conv_id&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;conv_result&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;result&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;conv_type&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Conversation&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;query&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filter_by&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;conv_id&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;first&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;type_id&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;conv_points&lt;/span&gt;  &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;ConversationType&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;query&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;filter_by&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;conv_type&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;first&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;points&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;(I have omitted unrelated classes like ConversationType and PlaceType).
+The key lines here is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;__mapper_args__&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;polymorphic_identity&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;conversation&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="n"&gt;__mapper_args__&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;polymorphic_identity&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;place&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;ORM works by 'mapping' user defined classes to the database tables. By
+default, the class members are made table attributes with the variable
+names as the attribute name. In the above table we are trying to make
+the attribute 'type' polymorphic i.e the variable value will depend on
+the class object its called from.&lt;/p&gt;
+&lt;p&gt;So, Now you can insert either a Conversation Or Place Activity&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;placeActivity&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;PlaceActivity&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;id&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;convert_int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;place_id&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="n"&gt;date_time&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;convert_float&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lat&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="n"&gt;convert_float&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lng&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="n"&gt;convActivity&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;ConversationActivity&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;id&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;pickupline_id&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;result&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;date_time&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Neat.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Wed, 23 Mar 2011 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2011-03-23:SQLAlchemy-.html</guid></item><item><title>Blog Like a hacker</title><link>http:%20//shreesh.in/Blog-Like-a-hacker-.html</link><description>&lt;div class="section" id="blogging-with-wordpress"&gt;
+&lt;h2&gt;Blogging with Wordpress&lt;/h2&gt;
+&lt;p&gt;Even though I am not the chatter box, there were times when I wanted to blog about experiences. But
+every time I opened the web console, it did not give the same kick as typing in a Vim editor with
+dark background and glowing text. So, whenever I felt to talk about something, I just posted it as a
+summary in relevant online forums rather than type it as a blog.&lt;/p&gt;
+&lt;div class="section" id="blog-like-a-hacker"&gt;
+&lt;h3&gt;Blog like a hacker&lt;/h3&gt;
+&lt;p&gt;Did I mention I liked the kick of typing in Vim and publishing from command line? yes, thats what
+made me throw out Wordpress and its associated plugins in favour of a static site with hand coded
+[but inspired] layout, comment-less, plugin-less blog site. [Hyde][1] suited my tastes perfectly.
+Its a static site generation engine written in Python, uses Django style templating and I can use
+markdown syntax to type the content. Its clean and you can blog offline and push your changes to the
+serve with a single command using [Fabric][2]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="vim-as-an-editor"&gt;
+&lt;h3&gt;Vim as an editor&lt;/h3&gt;
+&lt;p&gt;Having worked with Vim editor on and off for a good 4 years, It beats any IDE. With markdown and
+spell check, its as good a blog editor as any. With no repetitive mouse movements, its better for
+your wrists.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="migrating-from-wordpress"&gt;
+&lt;h3&gt;Migrating from Wordpress&lt;/h3&gt;
+&lt;p&gt;With a csv exporter plugin, I got anice csv file with all my posts[However little there are].
+What wasn't so nice was the horrible html code of my text content. With fugly tags obscuring the content I could not work with it in a normal
+editor. There is a wonderful piece of python script [html2text][3], which converts a html text to
+Markdown-formatted text complete with link references at the end. [1]:
+&lt;a class="reference external" href="https://github.com/lakshmivyas/hyde"&gt;https://github.com/lakshmivyas/hyde&lt;/a&gt; (Hyde Static Website generator) [2]: &lt;a class="reference external" href="http://fabfile.org/"&gt;http://fabfile.org/&lt;/a&gt; (Fabric
+- Application deployment) [3]: &lt;a class="reference external" href="https://github.com/aaronsw/html2text"&gt;https://github.com/aaronsw/html2text&lt;/a&gt; (HTML to Markdown-formatted
+text)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Sun, 20 Mar 2011 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2011-03-20:Blog-Like-a-hacker-.html</guid></item><item><title>IMDB Database</title><link>http:%20//shreesh.in/IMDB-Database.html</link><description>&lt;div class="section" id="imdb-database"&gt;
+&lt;h2&gt;IMDB Database&lt;/h2&gt;
+&lt;p&gt;You can get the txt file database which powers IMDB
+&lt;a class="reference external" href="http://www.imdb.com/interfaces"&gt;here&lt;/a&gt;.Now to build a parser and a
+nice display page.&lt;/p&gt;
+&lt;p&gt;Then i can has my own Movie Quote list. Sweetness.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Wed, 08 Dec 2010 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2010-12-08:IMDB-Database.html</guid></item><item><title>On a night like this</title><link>http:%20//shreesh.in/On-a-night-like-this.html</link><description>&lt;div class="section" id="on-a-night-like-this"&gt;
+&lt;h2&gt;On a night like this&lt;/h2&gt;
+&lt;p&gt;On a night like this, there are very few things which can go right.A
+rick with a right indicator isn't one of them though.An alcohol induced
+nerve cells tingling for the entire night might just be the thing.Even
+otherwise its a money well spent. It made me feel happy.I can handle
+driving when drunk(oh pliss), but i can't handle the randomness in my
+head.Sometimes I feel as satisfied as a hippie and other times, total
+weirdness. Assuming this weirdness isn't hangover, maybe this is how i
+should be when I am sober.Lots o f weirdness in my head. And when i am
+drunk ,there should just be peace-ness.If I have to get drunk to tickle
+my nerve cells, My nerve cells must be fried beyond repair.More so the
+reason to drink more and get most out of them while i still can!&lt;/p&gt;
+&lt;p&gt;Wait, how did I get to that conclusion?&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Wed, 08 Dec 2010 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2010-12-08:On-a-night-like-this.html</guid></item><item><title>Masinagudi</title><link>http:%20//shreesh.in/Masinagudi-.html</link><description>&lt;div class="section" id="masinagudi"&gt;
+&lt;h2&gt;Masinagudi&lt;/h2&gt;
+&lt;p&gt;One of the best weekend getaways near bangalore, especially in monsoon
+season.Its surrounded with lush greenery and beautiful mountain view. We
+had stayed in a wonderful home stay called &lt;a class="reference external" href="http://bamboobanks.in/"&gt;Bamboo
+Banks&lt;/a&gt; guest house. Its set in a 42 acre farm
+with just around 4 cottages, each wonderful in its own way. Horse
+riding, a dip in the pool and a short walk through the farm would take
+up your entire day. Do stay there, if you are in masinagudi.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Mon, 13 Sep 2010 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2010-09-13:Masinagudi-.html</guid></item><item><title>The Shining</title><link>http:%20//shreesh.in/The-Shining-.html</link><description>&lt;div class="section" id="the-shining"&gt;
+&lt;h2&gt;The Shining&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.imdb.com/name/nm0000040/"&gt;Stanley Kubrick&lt;/a&gt;, known for
+his compulsiveness and numerous retakes, got the difficult shot of
+blood pouring from the elevators in only three takes. This would be
+remarkable if it weren't for the fact that the shot took nine days
+to set up; every time the doors opened and the blood poured out,
+Kubrick would say, &amp;quot;It doesn't look like blood.&amp;quot; They had tried
+shooting that scene for an entire year.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.imdb.com/name/nm0000040/"&gt;Stanley Kubrick&lt;/a&gt; demanded
+127 takes from†&lt;a class="reference external" href="http://www.imdb.com/name/nm0001167/"&gt;Shelley
+Duvall&lt;/a&gt; in one scene.&lt;/p&gt;
+&lt;p&gt;According to†&lt;a class="reference external" href="http://www.imdb.com/name/nm0000175/"&gt;Stephen King&lt;/a&gt;,
+the title is inspired by the refrain in the Plastic Ono Band's song,
+&amp;quot;Instant Karma&amp;quot; (by†&lt;a class="reference external" href="http://www.imdb.com/name/nm0006168/"&gt;John
+Lennon&lt;/a&gt;), which features the
+chorus: &amp;quot;We all shine on.&amp;quot;&lt;/p&gt;
+&lt;p&gt;For the scene in which Jack breaks down the bathroom door, the props
+department built a door that could be easily broken. However,†&lt;a class="reference external" href="http://www.imdb.com/name/nm0000197/"&gt;Jack
+Nicholson&lt;/a&gt; worked as a
+volunteer fire marshal and tore it apart easily. The props
+department were then forced to build a stronger door.&lt;/p&gt;
+&lt;p&gt;Steadicam operator†&lt;a class="reference external" href="http://www.imdb.com/name/nm0113593/"&gt;Garrett
+Brown&lt;/a&gt; accomplished many of
+the ultra-low tracking corridor sequences from a wheelchair on which
+his invention was mounted. Grips would either pull backward or push
+forward the wheelchair, depending on the requirement of the shot&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Just thought i would post some trivia on my†favorite†horror movie of all
+time.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Sun, 08 Aug 2010 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2010-08-08:The-Shining-.html</guid></item><item><title>VLC</title><link>http:%20//shreesh.in/VLC.html</link><description>&lt;div class="section" id="vlc"&gt;
+&lt;h2&gt;VLC&lt;/h2&gt;
+&lt;p&gt;So, yesterday was one of those nights where you will feel the
+infiniteness of time. The keeps stretching and the work you wanted to
+finish never left the dock. And so you start messing around your web
+blog, create pages, delete pages, open iWeb and &lt;em&gt;delete&lt;/em&gt; your wordpress
+blog.&lt;/p&gt;
+&lt;p&gt;!!&lt;/p&gt;
+&lt;p&gt;Saw the time, it was 3:00am. Had been working through that time of the
+night when the brain cells are tired shit and ready to drop.With a
+little curse and a mild grunt, i started to put together the site
+again.Lets hope, this time it sticks around for good.&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;On a side note: How to view video on PC in your laptop&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;ssh from your laptop to your machine, type &amp;quot;vlc --sout udp:(laptop ip
+address)&amp;quot;&lt;/li&gt;
+&lt;li&gt;Choose a file on PC and play in VLC.&lt;/li&gt;
+&lt;li&gt;In your laptop, open VLC player.Goto File-&amp;gt;Open Capture† Device -&amp;gt;
+Network-&amp;gt; Open RTP/UDP Stream -&amp;gt; type your PC address -&amp;gt; Open&lt;/li&gt;
+&lt;li&gt;Voila!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Sun, 08 Aug 2010 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2010-08-08:VLC.html</guid></item><item><title>Free as in Freedom</title><link>http:%20//shreesh.in/Free-as-in-Freedom-.html</link><description>&lt;div class="section" id="free-as-in-freedom"&gt;
+&lt;h2&gt;Free as in Freedom&lt;/h2&gt;
+&lt;p&gt;Today I am relieved; both from my company &lt;em&gt;and&lt;/em&gt; from dated development
+jobs.
+After I witnessed a massive fuck-up of a major project by the management
+team, I finally moved out of the company, and other similar companies. I
+would never want to work in those companies where poor management
+decisions overrule any good technical work, where engineers are horded
+instead of valued.&lt;/p&gt;
+&lt;p&gt;I am going to work for very small company where passion for tech drives
+the employees. Where each member would have the absolute freedom to work
+from wherever they please as long as they are productive. Where there
+would be no bar on sites which you can visit. Where you just don't work,
+but learn everyday as you work;&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Fri, 23 Jul 2010 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2010-07-23:Free-as-in-Freedom-.html</guid></item><item><title>A movie scene</title><link>http:%20//shreesh.in/A-movie-scene-.html</link><description>&lt;div class="section" id="a-movie-scene"&gt;
+&lt;h2&gt;A movie scene&lt;/h2&gt;
+&lt;p&gt;I have always been a fan of movies/Tv series starring Pankaj kapoor,the
+earliest of which I didn't even remember the name.It was a story of
+doctor,struggling to pursue his passion of finding a cure. His days
+spent toiling away in his makeshift lab,amidst a strained family life
+and a convoluted professional environment.I can neither recall the
+plot,nor th actress nor the director.But I still vividly remember the
+bearded face of the doctor with weary eyes, searching for an elusive
+horizon.The strain of a man pulled in many different directions.I do
+remember the scene, where his wife picks up his dairy from the table,
+and reads two 2 short lines scribbled at the end of a page filled with
+notes.Which summarizes the thoughts of the character:&lt;/p&gt;
+&lt;blockquote&gt;
+So much to do, So little is done&lt;/blockquote&gt;
+&lt;p&gt;PS:The name of the movie I later found out was &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Ek_Doctor_Ki_Maut"&gt;Ek Doctor ki
+Maut&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Wed, 13 May 2009 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2009-05-13:A-movie-scene-.html</guid></item><item><title>Life.. on a past lane.</title><link>http:%20//shreesh.in/Life..-on-a-past-lane.-.html</link><description>&lt;div class="section" id="life-on-a-past-lane"&gt;
+&lt;h2&gt;Life.. on a past lane&lt;/h2&gt;
+&lt;p&gt;Four years since I started working, Changed one company.. No enthusiasm
+to change again. [Interesting work will be done on weekends rather than
+in a stuffy software company.]
+Memorable events&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Visited Switzerland&lt;/li&gt;
+&lt;li&gt;Visited Paris.&lt;/li&gt;
+&lt;li&gt;Visited Italy&lt;/li&gt;
+&lt;li&gt;Visited Amsterdam&lt;/li&gt;
+&lt;li&gt;Visited Singapore&lt;/li&gt;
+&lt;li&gt;Made an &amp;quot;international good friend&amp;quot;&lt;/li&gt;
+&lt;li&gt;Went to the Highest Accessible Point in Europe&lt;/li&gt;
+&lt;li&gt;Smoked a cigarette with a Korean friend at 00:00 AM on the street at
+a freezing temperature of 0 Celsius with only a shirt and pyjama.&lt;/li&gt;
+&lt;li&gt;Taught a Korean how to smoke in Indian Style&lt;/li&gt;
+&lt;li&gt;Tried all the Sea Foods(Octopus,Squid,small fish,Oyster..) before I
+could digest what they were.&lt;/li&gt;
+&lt;li&gt;Learnt to cook edible food&lt;/li&gt;
+&lt;li&gt;Made some &amp;quot;friends&amp;quot;... lost some..&lt;/li&gt;
+&lt;li&gt;Made new memories, to help fade out the old ones...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Life gave too much.. I could have survived with less :) All thanks to a
+&amp;quot;thing&amp;quot; called software.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Wed, 12 Mar 2008 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2008-03-12:Life..-on-a-past-lane.-.html</guid></item><item><title>Kannada Slang - Lesson 1</title><link>http:%20//shreesh.in/Kannada-Slang---Lesson-1-.html</link><description>&lt;div class="section" id="kannada-slang-lesson-1"&gt;
+&lt;h2&gt;Kannada Slang - Lesson 1&lt;/h2&gt;
+&lt;p&gt;Slang : nai thara (Naa-Yee Tha-raaaa) (adj) Literal Meaning: Dog Like or
+Like a Doggie or Mutt Like or Canine Like&lt;/p&gt;
+&lt;p&gt;Hindi Equavalent : Kutte ki tharah: Eg: Arrey yaaar,aaj tho Mysore Road
+Kutte ki tharah Jam tha. Oh! Friend,Today the Mysore Road was jammed
+like a Dog!&lt;/p&gt;
+&lt;p&gt;Synonyms(Slangs) : Sakkath,Super,Bombbat,ulti. Antonymns(Slangs) : Shaa
+thara. Usage : something which demands a superlative qualification in a
+good sense,&lt;/p&gt;
+&lt;p&gt;Instead of saying that something is 'amazing' or 'awesome'(which has
+become overtly clichÈd BTW),this usage of 'nai thara' seems more
+original but nevertheless ....umm... slum-like(explanation needed).&lt;/p&gt;
+&lt;p&gt;Examples: * macha, Aero-show mathra nai thara itthu lo! Buddy,Aero-show
+was awesome(Dog like) man!&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Ivattanthu naanu nai thara enjoy maadide. Today,i enjoyed like a
+dog(umm.???). shreesh &lt;a class="reference external" href="mailto:shreesh.ayachit&amp;#64;gmail.com"&gt;shreesh.ayachit&amp;#64;gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Thu, 08 Mar 2007 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2007-03-08:Kannada-Slang---Lesson-1-.html</guid></item><item><title>If cricket is a religion then i am an atheist</title><link>http:%20//shreesh.in/If-cricket-is-a-religion-then-i-am-an-atheist-.html</link><description>&lt;div class="section" id="if-cricket-is-a-religion-then-i-am-an-atheist"&gt;
+&lt;h2&gt;If cricket is a religion then i am an atheist&lt;/h2&gt;
+&lt;p&gt;Now, after all the hullabaloo over the 'unexpected loss ' of the Indian
+cricket team in the ongoing world cup of paltry 12 countries,after
+cursing the 11 blue upcoming Ad actors for their absence of ballz to
+tame a cricket ball, after sympathizing with the coach for having to put
+up with all flash-pan talents that form the cricket of a billion
+people,and after deciding to hold a Hi-Level conferences to decide the
+winner of the lot(who gets the esteemed title of HisBakraness) ,Its time
+to be different and nominate a new bakra to take the blame.umm..make
+that bakras...&lt;/p&gt;
+&lt;p&gt;Hurray!Its Us!&lt;/p&gt;
+&lt;p&gt;Yep we are the real culprits behind this colossal depression sweeping
+the nation. Whats our crime?Our crime,ladies and ladas, is that we
+believed..&lt;/p&gt;
+&lt;p&gt;Ever wondered why we believe in our 'awesome' cricket team so much so
+that we cheer for their amazing fighting spirit while playing 'talented'
+teams like Zimbabwe,bangladesh,kenya..or heck they would even make a
+close match against a banana leaf-clad group of tribal people from
+Andaman Why? because it their duty and responsibility to make the match
+interesting for the scores of fanatics..ummm sorry fans back home and in
+front...of the field, I meant.How bloody considerate of them.&lt;/p&gt;
+&lt;p&gt;Ever wondered why we cheer the team india even when they lose(close or
+drubbing dosent matter) to the finger countable countries that play test
+cricket?&lt;/p&gt;
+&lt;p&gt;Ever wondered why we always seem to believe in something that dosen't
+exist? (In the case study of cricket..its the talent that doesn't exist)&lt;/p&gt;
+&lt;p&gt;So,ill repeat the question,lest i deviate from the point i wish to
+make,however I would like to wander you off the flesh of the blog just
+to prove how bloody amazingly talented i am at satire and what not.Here
+I repeat,yet again, the question i was going to ask at the start of this
+paragraph which is going on like a big-bubble chewing gum drawn out of
+your mouth slowly after squeezing the juice out of it.And its getting
+equally gross as well.&lt;/p&gt;
+&lt;p&gt;Finally here is the question: WHY THE HELL WE BELIEVE IN THE INDIAN
+CRICKET TEAM TO WIN THE BLOODY WORLD CUP OF 12 COUNTRIES?&lt;/p&gt;
+&lt;p&gt;The flaw is in our part(no.Not that part) The part of us which has been
+handed down to us from th time of our forefathers(who were not yet human
+and a little monkey types).&lt;/p&gt;
+&lt;p&gt;The part of us which looks for a scapegoat to blame our failures,our
+frustrations(not that type) and our KLPDs(not that..err. ok, that type
+only) which is none other than our very own mysterious Mr God.&lt;/p&gt;
+&lt;p&gt;Yep.&lt;/p&gt;
+&lt;p&gt;We are taught to 'believe' in yourselves even if you are shit at
+everything. We are taught to 'just give your best' and leave everything
+to 'him'(pointing their forefinger to the sky,or to the mosquitoes
+flying over your head..don't know which)&lt;/p&gt;
+&lt;p&gt;We are taught to 'just have some faith'(ala Hollywood movies with a hot
+actress touching your hand with an inspirational background score.ha!
+which moron doesn't want to have faith then?).&lt;/p&gt;
+&lt;p&gt;When the truth is -&amp;gt; Nobody knows what the heck they are talking about.
+Never seen a any angle flying over the Australian team when they beat
+the crap out of the indians.Never seen any devil with a tail, poking at
+the butts of our cricketrs when they fall hopelessly all over the tiny
+cricket ball.&lt;/p&gt;
+&lt;p&gt;We all trying to build a real castle of our dreams with virtual pillars.&lt;/p&gt;
+&lt;p&gt;In short,We just have it in us,to just close our eyes and imagine a
+super-hero and pray so bloody hard that,we get some air pumped into us
+where there actually should be talent.&lt;/p&gt;
+&lt;p&gt;Now,show me the moron who says 'After all the preparation,you just need
+to have some faith to win it' . Ill let loose him amidst some cricket
+fans who are pissed in mega and giga litres of pee.&lt;/p&gt;
+&lt;p&gt;Bottom line: Don't believe in hot air,believe in facts,believe in
+reality for chrissake!&lt;/p&gt;
+&lt;p&gt;PS:to be continued...but take a look at this link to grasp what i am
+really getting at&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.abovetopsecret.com/pages/ufocoverup.html"&gt;http://www.abovetopsecret.com/pages/ufocoverup.html&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Wed, 07 Mar 2007 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2007-03-07:If-cricket-is-a-religion-then-i-am-an-atheist-.html</guid></item><item><title>Death</title><link>http:%20//shreesh.in/Death-.html</link><description>&lt;div class="section" id="death"&gt;
+&lt;h2&gt;Death&lt;/h2&gt;
+&lt;p&gt;He was 12.No where near a justifiable age to..die.Yet there he
+was,taking his last whiffs of air ,his last views of this forsaken world
+full of hopelessly confused-yet-which their confident faces
+betrayed.They were feeling bad for him.I could see him almost felt like
+laughing on that thought;if he could laugh that Is.Maybe he was happy to
+go.I've seen him happy,sad excited.. even depressed.But never like
+this.His bright and piercing eyes would reflect every damn emotion
+without a fault.His eyes would shine forth with all Its honesty,with all
+the expressions which words would never do justice.His face was Indeed
+an Index of his mind.His face was a picture of Innocence.How many of us
+can manage that?People would see him and envy their own lack of It.He
+was gifted.Not this time.His was expressionless.There was a hint of
+confusion,a hint of excitement on seeing me,but It was all buried under
+a cloak of Indifference..as If It was not worth think about It.He was
+just lying there and waiting for all this to end,so that he can be
+normal again,play, eat, sleep.Did he know that things will never be the
+same again?at least not for him..and at least not for me.I am not
+strong.I realized It the moment I saw his eyes.I felt terribly weak.All
+the emotions gathered(from not crying for 10yrs) and seemed ready to
+explode right through my eyes.It was hopeless to try and stop
+It.Hopeless to even think about control.For all this time I dreaded
+seeing this sight.Never saw anyone dying...until now.But he was not just
+anyone.He was my truest friend.He felt happy to see me..at least I
+thought so.Trying desperately to control my outburst I came near
+him.Hard to express what I felt.It was the saddest day of my &amp;quot;life&amp;quot;.It
+was hopelessly unreal.It was draining me out.sapping my energy to the
+last bit.Breaking down right In front of him,I dint care what he would
+think.I was loosing a pound of flesh of myself(comparison Is all that I
+can muster) and It bloody hurt like a broken bone.Then, he was just
+motionless.His Innocent face was as If It was nailed to that
+expression.Something In him was missing which made
+him..alive.Something.Something I don't know,Something, about which I
+dint care,Something, which betrayed his body and left,Something, which
+made him...Tubby.It was not the Death of a person,It was the death of
+that something.It was the Death of a Soul.Does It matter now that I am
+now wishing that I were dead?Does It matter now that I cant manage to
+forget his face?Does it matter now that I want him back again?Does one
+life values more than the other?Does It matter that Tubby Is...a Dog?&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The above garbage product was brought to you by an under-gifted Idle
+mind In collaboration with light work,company cab and Kaveri Issue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Wed, 07 Feb 2007 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2007-02-07:Death-.html</guid></item><item><title>Vladimir Putin</title><link>http:%20//shreesh.in/Vladimir-Putin-.html</link><description>&lt;div class="section" id="putin-on-chechen-extremists-on-september-24-1999"&gt;
+&lt;h2&gt;Putin on Chechen extremists, on September 24, 1999:&lt;/h2&gt;
+&lt;blockquote&gt;
+&amp;quot;We'll follow terrorists everywhere. We will corner the bandits in the
+toilet and wipe them out.If you are a Christian, you are in danger. Even
+if you are an atheist, you are in danger, and if you decide to convert
+to Islam, this will not save you, either, because traditional Islam is
+inimical to the conditions and objectives set by the terrorists. If you
+are prepared to become a most radical Islamist and are prepared to
+circumcise yourself, I invite you to come to Moscow. I will recommend
+having the operation done in such a way that nothing will grow for you
+there anymore.&amp;quot;&lt;/blockquote&gt;
+&lt;p&gt;Putin snapping back at a reporter from Le Monde who asked a critical
+question about the conduct of the war in Chechnya, in November 2002. The
+quotation was rendered innocuous by his interpreter, but the original
+was recorded on audio and widely reprinted in Russia.&lt;/p&gt;
+&lt;p&gt;He knows how to treat insurgents.No deal with the terrorists.Pure guts
+to send troops to kill terrorists in beslan school hostage crises.no
+prize for guessing what our government would have done.gift wrap a
+ransom and parcel some hi-funda criminals for them and hold a victory
+party.How can you negotitate with a terrorist?Only a spy knows the only
+way you negotiate with a terrorist to point a gun at his and...pull the
+trigger.But the question is,is he taking the aggressive stance so much
+so as to kill all those who oppose him? However insignificant they might
+be? First &lt;a class="reference external" href="http://www.washingtonpost.com/wp-dyn/content/article/2006/10/07/AR2006100700308.html"&gt;Anna Politkovskaya(shot
+dead)&lt;/a&gt;
+now &lt;a class="reference external" href="http://www.sweetness-light.com/archive/britain-says-putin-critic-died-of-radiation-poisoning"&gt;Litvinenko(poisoned by no less than
+polonium-210).&lt;/a&gt;
+One was investigating rights violation in Chechen area by Russian forces
+and the other was blaming the Russian govt of 1999 bombings in
+Russia.And thats not all, 12 journalists have been killed in russia
+since 2000!its the third most dangerous place on earth for journalists!&lt;/p&gt;
+&lt;p&gt;I don't think Putin would risk such high-profile killings in public just
+to silence some constantly blabbering journalists(they might be right of
+course!) that too when his popularity is high in Russia.&lt;/p&gt;
+&lt;p&gt;But Putin don't think has unlearned what he has learned at FSB,In his
+own words...&lt;/p&gt;
+&lt;blockquote&gt;
+On December 2005, Putin said to a group of FSB officers: _&amp;quot;There is
+no such thing as a former KGB man&amp;quot;&lt;/blockquote&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Wed, 06 Dec 2006 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2006-12-06:Vladimir-Putin-.html</guid></item><item><title>Etc Term Connotation (etc) :D</title><link>http:%20//shreesh.in/Etc-Term-Connotation-(etc)-:D-.html</link><description>&lt;div class="section" id="etc-term-connotation-etc-d"&gt;
+&lt;h2&gt;Etc Term Connotation (etc) :D&lt;/h2&gt;
+&lt;p&gt;Pardon the inherent PJ that is the topic of this post. But as usual,that
+is not the issue.&lt;/p&gt;
+&lt;p&gt;A damn funny discussion is going on
+&lt;a class="reference external" href="http://ask.slashdot.org/article.pl?sid=07/03/03/028258&amp;amp;from=rss"&gt;here&lt;/a&gt;
+about what does &amp;quot;etc&amp;quot; stand for in /etc(&lt;em&gt;No&lt;/em&gt; further explanation) . I
+vote for &amp;quot;et cetera&amp;quot;, but that misses the point entirely. The FUN
+point,that is.&lt;/p&gt;
+&lt;p&gt;The top &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Backronym"&gt;Backronymns&lt;/a&gt; is : *
+Editable Text Configuration Stallman ishtlye(Left Recursive): * Etc
+Text Configuration. etc(don't pardon the pun) : * Extended tool chest
+* Enormous Trove of Configuration files * But some smart Aleck spoiled
+all the fun:&lt;/p&gt;
+&lt;p&gt;And, as another user pointed out &amp;gt; &amp;quot;editable text configurations&amp;quot; is a
+stupid name too, because if it's text, it's evidently editable. So why
+not just &amp;quot;text configurations&amp;quot; then? Also, in early Unix, everything was
+editable (remember,in Unix, everything is a file), so that's superfluous
+too. And, lastly, it was the repository for a lot of things that weren't
+configurations, including binaries.&lt;/p&gt;
+&lt;p&gt;Again, this is a backronym, and not even a clever one. Taking a cue from
+&amp;quot;Editable Text Configuration&amp;quot;, The below list was created. Keep your
+floors clean,coz you may have to ROFL..&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+emacs - Escape Meta Alt Control Shift. gdb - Get Down Baby. (ROFL^n)
+gcc - Give Communism (a) Chance. linux - Linus Is Not Usually
+Xeroflulogitic. lisp - Lisp Is (for) Symbolic Programming. java -
+Just Another Variant (of) Ada.
+perl - Perl Essentially Resembles Lisp.
+printf - People Rarely Insist (on) Naming This Function.
+sed - Slashdot (is) Easily Duped.
+top - Totally Ongoing Programs.
+vi - Very Irritating.
+&lt;/pre&gt;
+&lt;p&gt;...Or maybe not.Ok,These are funny UNIX commands you can try.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+#make babies Don't know how to make babies
+#make sense can't make sense
+&lt;/pre&gt;
+&lt;p&gt;If there is a virus on your system &amp;gt;#virus virus: not found.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+# man woman No manual entry for woman
+&lt;/pre&gt;
+&lt;p&gt;Still dont see the humour? OK,now you can go to hell.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Tue, 28 Nov 2006 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2006-11-28:Etc-Term-Connotation-(etc)-:D-.html</guid></item><item><title>One Year</title><link>http:%20//shreesh.in/One-Year-.html</link><description>&lt;div class="section" id="one-year"&gt;
+&lt;h2&gt;One Year&lt;/h2&gt;
+&lt;p&gt;As Feb 20th draws near,eMuzed remembers this day with a grimace. It was
+this day,1 year ago, When it let in a moron-looking dude of semi-cooked
+knowledge of Em-bedded Soft-ware (Soft bedded Emware??),with the josh of
+10 Bulls(nulls?) with their tail bitten. But must say this one year went
+like a cool breeze on a hot and sweaty Chennai afternoon.&lt;/p&gt;
+&lt;p&gt;Though eMuzed became whatitsname then finally to become
+whatthefuckitsname,one aspect never changed: The human resource.And I
+thoroughly enjoyed the company of a few lucky resources. And maybe ill
+remember eMuzed for the people and then maybe about the work.&lt;/p&gt;
+&lt;p&gt;Here's a lsit of characters in the Doomed-to-flop movie called &amp;quot;NULLa?&amp;quot;
+(pronounce like &amp;quot;Malla&amp;quot; with a N.Not to be confused with the Kannada
+word Nalla (without the Question mark),because i don't know what it
+means,better safe than sorry).&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;strong&gt;Characters in order of Appearance&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;Harish alias Harishah alias Harishaaaa alias ...(var args) :
+Bored?mood out?Angry? All you need is a dose of Harish and you will
+feel alive again. The mother...sorry father of all painkillers,He is
+the man with a sheer talent of communication. Harish has a 80feet
+highway running between his heart and Mouth.Clear as a see-through
+glass and has been my perfect friend. As Open as Linux,as reliable as
+Mac OS and as known about as Windows. My &lt;a class="reference external" href="tip:never"&gt;tip:never&lt;/a&gt; try to disprove
+whatever he says however unbelievable he might try to sound, 9 out of
+10,he will be right,sadly. Brainy guy who acts otherwise.&lt;/li&gt;
+&lt;li&gt;Sudhir alias Ski: Sky the person with a grunge-voice and fuck you(can
+be literally,on demand) attitude. Sky has two weakness RC and DC.And
+when they both mix,It rains DC,DC and some more DC. Sky the DON with
+carom,TT, and DC.Is psychic about RD burman,and Spirituality,Has a
+talent of playing around with words and a flair for &amp;quot;RnD&amp;quot;.Get a
+feeling that he is the role model for his juniors(Poor souls).&lt;/li&gt;
+&lt;li&gt;Srinivas alias Seena alias Sheena: A seasoned athlete, who
+specializes in the Triathlon event comprising Marathon
+ramblings,Grueling(for the listeners that is) singing sessions and a
+strenuous Kannada conversation;leave you gasping for breath.An
+outright honest character, with an innocence that shines forth.Whats
+on his heart, is in no time right out of his mouth and banging on the
+listener's ear drums.Has a highly developed brain which he puts to
+good use(occasionally to bug others,when he doesn't have to Debug).&lt;/li&gt;
+&lt;li&gt;A Hologram Sticker:&lt;/li&gt;
+&lt;li&gt;Vinod : The panta in every sense of the word.His major major talent:
+eagerness to help others(Read ME). Saved my ballz when I had them in
+a grinding machine. Someday he will grow over pinkfloyd.&lt;/li&gt;
+&lt;li&gt;RS: A PYT with brain.Wherever she goes,'Man'kind follows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;And two other certain PYTs whom I dare not approach coz of regular
+outbreak of wheezing cough among male colleagues,whenever I reach their
+vicinity.An interesting challenge for the Medical faculty to do their
+&amp;quot;RnD&amp;quot; on.&lt;/p&gt;
+&lt;p&gt;Won't forget in a hurry the carrom matches,the walk on JB nagar main
+road to eat chaats,the senseless talk,&amp;quot;oil&amp;quot; sessions in ski's house,the
+AC-less,water-less facility that was B3,and of course a little of what I
+did in office...work.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Tue, 28 Nov 2006 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2006-11-28:One-Year-.html</guid></item><item><title>Wave nature of Life</title><link>http:%20//shreesh.in/Wave-nature-of-Life-.html</link><description>&lt;div class="section" id="wave-nature-of-life"&gt;
+&lt;h2&gt;Wave nature of Life&lt;/h2&gt;
+&lt;p&gt;Thought for today...&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+Some people's lives are like cosine (x) -- starts at 1 and then goes to
+0. Other people's lives are like sine (x) -- starts at 0 and then goes
+to 1. But when you take the integral from 0 to 2 pi, it comes out to 0
+for everyone.
+&lt;/pre&gt;
+&lt;p&gt;Is it really so? &amp;quot;Dont ask me,I dont know..&amp;quot; - Ozzy&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Tue, 28 Nov 2006 00:00:00 -0500</pubDate><guid>tag:http: //shreesh.in,2006-11-28:Wave-nature-of-Life-.html</guid></item><item><title>Captain Jack Sparrow</title><link>http:%20//shreesh.in/Captain-Jack-Sparrow.html</link><description>&lt;div class="section" id="captain-jack-sparrow"&gt;
+&lt;h2&gt;Captain Jack Sparrow&lt;/h2&gt;
+&lt;pre class="literal-block"&gt;
+&amp;quot;This is the day that you will ALWAYS remember as the day that you...
+almost caught Captain Jack Sparrow&amp;quot;
+&lt;/pre&gt;
+&lt;p&gt;There,I've quoted it for the last time before it becomes a terrible
+bore.Captain Jack Sparrow is quite a character, and a character he must
+be to hold the Pirates... movie together, on his own.&lt;/p&gt;
+&lt;p&gt;The second part is all about Jack.Jack the Cunning,Jack the Wily,Jack
+the Captain,Jack the Coward,Jack the Hero, Jack the Bi(??) and of course
+Jack the Pirate.People want to see him(I am no different) and thank god
+he did not disappoint. All hail Johhny Depp!&lt;/p&gt;
+&lt;p&gt;Apparently, people like Jack Sparrow,irrespective of how much ever
+absurd the scene might be, Jack stands out.His character is a mix of
+self contradicting qualities: cowardly brave, gay-ishly straight,
+cunningly naive, seriously funny but &lt;em&gt;good&lt;/em&gt; nonetheless. (Apparently
+being good is vital for one to be likeable). Maybe Jack will become the
+new definition of Commercial Hero. Personally I think his character was
+screwed up by making him &amp;quot;generous&amp;quot; and &amp;quot;brave&amp;quot;. Jack Sparrow was a born
+winner and the secret was that, he wasn't your regular
+baddie-bashing-Hero When he wants to save his ass, he doesn't damn who
+gets hurt or killed. He can be a coward when he wants to,a loser when he
+wants to or even a killer.. if he wants to. I would have loved to see
+him just walk away without a glance when the Kraken attacks the ship,
+instead of returning to the ship.&lt;/p&gt;
+&lt;p&gt;All the noble deeds should have been left to Mr.Turner, That at least
+would have put some meat into his character.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Sun, 30 Jul 2006 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2006-07-30:Captain-Jack-Sparrow.html</guid></item><item><title>News I can use?</title><link>http:%20//shreesh.in/News-I-can-use?-.html</link><description>&lt;div class="section" id="news-i-can-use"&gt;
+&lt;h2&gt;News I can use?&lt;/h2&gt;
+&lt;pre class="literal-block"&gt;
+A Hindi Profesor was having an illicit relation with one of his
+students.Problem is that he is already married.This affair was brought
+to light when the Prof wife saw both of them together.Needless to say
+his wife is totally distraught and angry at his husband for cheating on
+her,and on the student as well.
+&lt;/pre&gt;
+&lt;p&gt;There You have it.Dont you feel enlightened now? You are mad if you
+think that it's the most trivial news ever.And deserve to be admitted to
+NIMHANS immediatly...you will find me there. If you are on the other
+hand enlightened, then dont thank me! The credit goes to the &amp;quot;Sabse
+Tez!&amp;quot; news channel AAJ TAK for showing this amazing new story all day
+long with all the &amp;quot;josh&amp;quot; and whole lotta screaming that goes with
+it.Thanks AAJ TAK! for drilling this new story all day long,scene by
+scene, live at the Prof's house(who was half naked BTW),almost making it
+into a soap with all the drama unfolding at his house. The description
+of the event, the in depth analysis, and above all dedicating the
+precious air-time of the news time to this ... silly bunch of crap made
+me puke all over;again and again, Do we even care if some sorry old Prof
+got all his libido revved up after 50 yrs again, enough to take it all
+over some sorry woman,who is not his wife? And the way they deliver the
+new s item is what makes me sick all over.Why does does the media always
+take some silly news and blow it all up a if it's gonna change our
+wrld?And when you deliver some news item,please just... deliver.Dont
+make a drama out of it.&lt;/p&gt;
+&lt;p&gt;Because frankly, no news about someone who's not even related, is gonna
+make me go down on my knees and cry.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Sun, 09 Jul 2006 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2006-07-09:News-I-can-use?-.html</guid></item><item><title>On a Bus</title><link>http:%20//shreesh.in/On-a-Bus.html</link><description>&lt;div class="section" id="on-a-bus"&gt;
+&lt;h2&gt;On a Bus&lt;/h2&gt;
+&lt;p&gt;I can almost imagine myself,sitting in the back seat of a mini bus with
+a big fat book, straining my eyes on the pathetic font of a gripping
+novel and bumping around on the &amp;quot;asphalt&amp;quot; roads of Bangalore.&lt;/p&gt;
+&lt;p&gt;I need not hurry for I have got all the time in the world, till I reach
+my home.It's been, after all just 2 hours since I left my office(which
+is BTW located in a far-off(not distance-wise, time-wise) place called
+Marathalli).And we have yet to come out of our campus gates. I can even
+finish a thesis on the book and get a PhD as well, which is only limited
+by my vacuum filled brain, the proof of which lies in the fact that, I
+ended up in this state of day schedule 4hrs-journey
+9hrs(hopefully)-journey 8hrs- sleep. Come 17th and for me it will all
+become a reality.The same old routine of getting early,only to find out
+that it was not early enough,again. Pathetically running to the bus stop
+to catch the last hope of reaching office,alive before I have to turn
+the BMTC buses. The same old zombie feeling in the morning, and by the
+time you feel alive..get ready for the trek back home. I don't have any
+inclination to work in a &amp;quot;swanky&amp;quot; building, and that too after a 2hr
+drive?no than ks. What do you get in that High-5 building?a puny 3x3
+plastic box-open on 3 sides, called a cubicle? My father has had a
+separate room since he was 19.And I am still stuck with this &lt;a class="reference external" href="http://slashdot.org/articles/06/03/09/1943243.shtml"&gt;sick
+cube&lt;/a&gt; (read the
+link if you empathize with me on this regard) Where me,my chair and my
+comp fight for every inch of space available.Not to speak of the
+&amp;quot;privacy&amp;quot; that comes free with a 4 cubicle piece.I could dwell on that
+thing on for pages together,but that is so goddamn pointless .Cubes cut
+costs for the Company..and you know what that means. I would give an arm
+and a tooth for an office near to where I live.&lt;/p&gt;
+&lt;p&gt;Why cant we have a decentralized working system?Instead of all the
+employees flocking at a single place,let the different team(who BTW
+serve no purpose working at a single location because they rarely
+interact) be located a different places which are convenient to all the
+team members,Data exchange should not be a problem. So why herd everyone
+at those huge buildings?To show off? that we-the-company have more
+money-money so please customers come-come?sic. But what the heck, as
+usual I end up compromising. But no one and absolutely NO ONE is gonna
+stop me from cribbing about it.&lt;/p&gt;
+&lt;p&gt;So there.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shreesh</dc:creator><pubDate>Thu, 08 Jun 2006 00:00:00 -0400</pubDate><guid>tag:http: //shreesh.in,2006-06-08:On-a-Bus.html</guid></item></channel></rss>

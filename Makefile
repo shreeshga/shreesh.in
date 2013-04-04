@@ -1,26 +1,76 @@
-.PHONY: generate preview publish
+PELICAN=pelican
+PELICANOPTS=
 
-# We extend PYTHONPATH to include the current directory so that settings
-# inclusion will work well.
-export PYTHONPATH := .:${PYTHONPATH}
+BASEDIR=$(CURDIR)
+INPUTDIR=$(BASEDIR)/content
+OUTPUTDIR=$(BASEDIR)/output
+CONFFILE=$(BASEDIR)/pelicanconf.py
+PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-# Run the preview webserver on port 8000
-PREVIEW_PORT=8000
+FTP_HOST=localhost
+FTP_USER=anonymous
+FTP_TARGET_DIR=/
 
-PREVIEW_URL=http://localhost:${PREVIEW_PORT}/
+SSH_HOST=shreesh.in
+SSH_PORT=22
+SSH_USER=ubuntu
+SSH_TARGET_DIR=/home/ubuntu/shreesh.in/blog
+KEY=~/.ssh/Keys/home-shreesh.pem
+DROPBOX_DIR=~/Dropbox/Public/
 
-preview:
-	env FIRMANT_OUTPUT_DIR=preview \
-		FIRMANT_PERMALINK_ROOT=${PREVIEW_URL} \
-		firmant settings
-	@echo
-	@echo "Starting local server. ^C to kill it (Control + C)"
-	@echo "Visit: ${PREVIEW_URL}"
-	cd preview && python -m SimpleHTTPServer
+help:
+	@echo 'Makefile for a pelican Web site                                        '
+	@echo '                                                                       '
+	@echo 'Usage:                                                                 '
+	@echo '   make html                        (re)generate the web site          '
+	@echo '   make clean                       remove the generated files         '
+	@echo '   make regenerate                  regenerate files upon modification '
+	@echo '   make publish                     generate using production settings '
+	@echo '   make serve                       serve site at http://localhost:8000'
+	@echo '   make devserver                   start/restart develop_server.sh    '
+	@echo '   ssh_upload                       upload the web site via SSH        '
+	@echo '   rsync_upload                     upload the web site via rsync+ssh  '
+	@echo '   dropbox_upload                   upload the web site via Dropbox    '
+	@echo '   ftp_upload                       upload the web site via FTP        '
+	@echo '   github                           upload the web site via gh-pages   '
+	@echo '                                                                       '
+
+
+html: clean $(OUTPUTDIR)/index.html
+	@echo 'Done'
+
+$(OUTPUTDIR)/%.html:
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+
+clean:
+	find $(OUTPUTDIR) -mindepth 1 -delete
+
+regenerate: clean
+	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+
+serve:
+	cd $(OUTPUTDIR) && python -m SimpleHTTPServer
+
+devserver:
+	$(BASEDIR)/develop_server.sh restart
 
 publish:
-	env FIRMANT_OUTPUT_DIR=shreesh.in \
-		FIRMANT_PERMALINK_ROOT=http://shreesh.in/\
-		firmant settings
-	#rsync -PLrvhz --chmod=ugo=rwX --delete --exclude='\.*' shreesh.in/ "oml@oml.in:/home/oml/shreesh/"
-	rsync -e "ssh -i /Users/shreeshga/Keys/servertype.pem" -PLrvhz --chmod=ugo=rwX --delete --exclude='\.*' shreesh.in/ "ubuntu@54.245.116.120:/home/ubuntu/shreesh.in/blog/"
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+
+ssh_upload: publish
+	scp -P $(SSH_PORT) -i $(KEY) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+
+rsync_upload: publish
+	rsync -e "ssh -p $(SSH_PORT)" -i $(KEY) -P -rvz --delete $(OUTPUTDIR) $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+
+dropbox_upload: publish
+	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
+
+ftp_upload: publish
+	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUTDIR) $(FTP_TARGET_DIR) ; quit"
+
+github: publish
+	ghp-import $(OUTPUTDIR)
+	git push origin gh-pages
+
+.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github

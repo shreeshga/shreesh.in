@@ -1,3 +1,5 @@
 
 flat/.projects.rst.un~
 *.un~
+*.pyc
+*.pid

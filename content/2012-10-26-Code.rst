@@ -1,0 +1,63 @@
+:title: Code
+:author: Shreesh
+:time:  23:34
+:updated: 2012-10-26 23:34
+:timezone: UTC
+:feed: all
+:category: code
+
+
+There are a lot of guidelines of what constitutes good code; fewer bugs, easier 
+to understand and so on. But they are too vague to describe.
+For me, If I had to define good code specifically
+
+  **Any code which I can fix** 
+
+And consequently, any code which makes it harder for me to fix is bad. 
+For Example, the point of modular programming is to define functions which
+can be described by their name. So that when you are reading code with folding
+enabled, you don't have to read through to each function to guess what its
+doing. Some programmers code like this
+
+.. code-block:: java
+
+  void onethingFunc() {
+      doSomething;
+      doSomethingElse;
+      doSomeOtherThing;
+      andOn;
+      andOn;
+  }
+
+| This code reminds me of assembly instructions. 
+| One instruction per line.
+| Very hard to read.
+|
+| Instead, if the above code  was something like this:
+|
+
+.. sourcecode:: java
+
+  void doSomething() {
+      do;
+      some;
+      thing;
+  }
+
+  void doSomethingElse() {
+      do;
+      some;
+      thing;
+      else;
+  }
+  
+  void doSomeOtherThing() {
+      do;
+      some;
+      other;
+      thing;
+  }
+
+Makes life *so* much better.
+
+
