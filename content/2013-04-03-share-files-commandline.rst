@@ -11,7 +11,7 @@ unnecessary mouse clicks on a browser?
 * Get the API key
 * in terminal, cd to the directory where you have the file.
 
-.. code-block:: bash 
+.. code:: 
 
   curl -F fileUpload=@<filename> 'https://www.filepicker.io/api/<path>?key=<apikey>&filename=<filename>'
 
