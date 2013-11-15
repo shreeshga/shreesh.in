@@ -10,7 +10,7 @@
 
 Something about the big bold letters with numbers in brackets piling up each day makes me feel that I am missing out on *so* many important stuff happening.
 
-But I just  can't read them all.And so, I let them pile on,Each day reading one or two latest news from each feed and generally ignoring other news stories.
+But I just  can't read them all. And so I let them pile on each day, reading one or two latest news from each feed and generally ignoring other news stories.
 
 Which made me trim out my huge list of Google RSS feeds to just three categories:
   * Cricket News

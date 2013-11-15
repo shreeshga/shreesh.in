@@ -15,7 +15,7 @@ SSH_HOST=shreesh.in
 SSH_PORT=22
 SSH_USER=ubuntu
 SSH_TARGET_DIR=/home/ubuntu/shreesh.in/blog
-KEY=~/.ssh/Keys/home-shreesh.pem
+KEY=~/Documents/Downloads/prerna-mac.pem
 DROPBOX_DIR=~/Dropbox/Public/
 
 help:

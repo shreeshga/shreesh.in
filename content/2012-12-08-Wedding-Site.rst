@@ -11,7 +11,7 @@ The art of creating wedding invitations
 Turns out; I am getting married. So, I wanted to create a web site instead of
 mailing everyone with a Megabytes of scanned invitation [I know, not very Indian of me].
 
-Being a  programmer, using e-wedding or such other hosting sites is wholly
+Being a  programmer, using e-wedding or such other hosting site is wholly
 *unacceptable*.
 
 I had worked with Python Flask before, so I quickly put together a static site 

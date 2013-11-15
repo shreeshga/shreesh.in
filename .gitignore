@@ -4,3 +4,4 @@ flat/.projects.rst.un~
 *.pyc
 *.pid
 *.swp
+.DS_Store

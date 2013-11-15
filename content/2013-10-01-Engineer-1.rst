@@ -1,0 +1,22 @@
+:title: Employee  #1
+:time: 12:30
+:timezone: UTC
+:author: shreesh
+:updated: 2013-10-01 12:50
+:category: tech
+
+I have seen many posts which say being an early employee is not worth it. I disagree in that you can't make the experience worth your time without putting in years of work.  
+
+When you join a company as the first non-founding employee, give it a deadline.
+A soft deadline of a year, where you have something else[higher studies, other job etc] going on and you can use your current startup experience to get a better job.
+Rarely anything worthwhile happens in the first year. But you will learn a valuable lesson: "Should you really be in a startup?"
+
+Then there is a hard headline of 2 years [during which you either you have a definite plan on higher studies or another company], where either:
+	1) The company will get a decent funding and you are starting to get a decent salary 
+	2) The company is still stagnant and the founders are playing it safe.
+	3) The founders keep saying it will take off in the next year.	
+
+There is almost no reason for employees without founder shares to stick around if 1)is not happening.
+
+So, enter the startup with a backup plan *always*.
+
