@@ -38,8 +38,7 @@ Wait, It gets worse:
 
 * No more Batman movies from Nolan.
 * The never ending tirade against Facebook/Microsoft/Google/Apple.
-* App developers and *CEO n00bs*  suddenly realizing app revenue can't pay them
-enough money for  their grand children finish medical school.
+* App developers and *CEO n00bs*  suddenly realizing app revenue can't pay them enough money for  their grand children finish medical school.
 
 I can't wait to die [oh, and also  verify my hindu beliefs]
 
