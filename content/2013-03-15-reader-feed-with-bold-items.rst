@@ -13,11 +13,12 @@ Something about the big bold letters with numbers in brackets piling up each day
 But I just  can't read them all. And so I let them pile on each day, reading one or two latest news from each feed and generally ignoring other news stories.
 
 Which made me trim out my huge list of Google RSS feeds to just three categories:
-  * Cricket News
-  * Local News
-  * International  News
-  * Al-Jazeera
-  * XKCD
+
+* Cricket News
+* Local News
+* International  News
+* Al-Jazeera
+* XKCD
 
 And yet, there were unread items every single day.
 

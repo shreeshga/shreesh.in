@@ -1,4 +1,4 @@
-:title: Vladimir Putin 
+:title: Vladimir Putin
 :author: Shreesh
 :updated: 2006-12-06 18:20
 :timezone: UTC
@@ -48,6 +48,6 @@ course!) that too when his popularity is high in Russia.
 But Putin don't think has unlearned what he has learned at FSB,In his
 own words...
 
-  On December 2005, Putin said to a group of FSB officers: \_"There is
+  On December 2005, Putin said to a group of FSB officers: "There is
   no such thing as a former KGB man"
 

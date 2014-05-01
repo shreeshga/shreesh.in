@@ -9,7 +9,7 @@
 
 Recently I read an article on the size_of_the_univese_ and it ends with a rather depressing line:
 
-    Once you put our knowledge about dark matter and dark energy in there, 
+    Once you put our knowledge about dark matter and dark energy in there,
     you’ll realize that we’ll never see more of the Universe than we can right now.
 
 Well, Thats a bummer. No wonder NASA isn't getting any funding.
@@ -33,14 +33,14 @@ in school. For example, unicellular organisms aren't the smallest anymore.
 |   Imagine the size of the cells!
 |   I totally take back my admiration for Amoeba,Paramecia and such others.
 
-|
-|   Wait, It gets worse:
 
-  * No more Batman movies from Nolan.
-  * The never ending tirade against Facebook/Microsoft/Google/Apple.
-  * App developers and *CEO n00bs*  suddenly realizing app revenue can't pay them 
-    enough money for  their grand children finish medical school.
+Wait, It gets worse:
+
+* No more Batman movies from Nolan.
+* The never ending tirade against Facebook/Microsoft/Google/Apple.
+* App developers and *CEO n00bs*  suddenly realizing app revenue can't pay them
+enough money for  their grand children finish medical school.
 
 I can't wait to die [oh, and also  verify my hindu beliefs]
 
-.. _size_of_the_univese: http://scienceblogs.com/startswithabang/2012/07/18/how-big-is-the-entire-universe/ (here) 
+.. _size_of_the_univese: http://scienceblogs.com/startswithabang/2012/07/18/how-big-is-the-entire-universe/ (here)

@@ -11,10 +11,10 @@ unnecessary mouse clicks on a browser?
 * Get the API key
 * in terminal, cd to the directory where you have the file.
 
-.. code:: 
+.. code::
 
   curl -F fileUpload=@<filename> 'https://www.filepicker.io/api/<path>?key=<apikey>&filename=<filename>'
 
-| The response will have the uploaded file path. 
+| The response will have the uploaded file path.
 | IM the path to friend.
 | Done.
