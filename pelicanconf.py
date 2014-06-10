@@ -3,11 +3,11 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Shreesh Ayachit'
 SITENAME = "char stream"
-SITEURL = 'http: //shreesh.in'
+SITEURL = 'http://shreesh.in'
 TIMEZONE = "America/New_York"
 THEME = "./pelican-theme"
 
-GITHUB_URL = 'http: //github.com/shreeshga/'
+GITHUB_URL = 'http://github.com/shreeshga/'
 PDF_GENERATOR = False
 REVERSE_CATEGORY_ORDER = True
 DEFAULT_PAGINATION = 4
@@ -30,10 +30,6 @@ STATIC_PATHS = ["pictures","images"]
 # A list of files to copy from the source to the destination
 #FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
 
-# custom page generated with a jinja2 template
-TEMPLATE_PAGES = {'flat/about.html': 'about.html',
-                  'flat/ios-apps.html':'ios-apps.html',
-                  'flat/bart-simpsons-blackboard.html':'bart.html'}
 FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 DATE_FORMATS = {
     'en': '%a, %d %b %Y'

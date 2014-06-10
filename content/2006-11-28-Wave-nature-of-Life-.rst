@@ -1,14 +1,14 @@
-:title: Wave nature of Life 
+:title: Wave nature of Life
 :author: Shreesh
 :updated: 2006-11-28 18:20
 :timezone: UTC
 :feed: all
 :copyright: Creative Commons Attribution 3.0 Unported
-:category: life 
+:category: life
 
 
-Wave nature of Life 
---------------------------------
+Wave nature of Life
+----------------------
 
 Thought for today...
 

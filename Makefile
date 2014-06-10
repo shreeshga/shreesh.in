@@ -11,11 +11,11 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=shreesh.in
+SSH_HOST=54.245.116.120
 SSH_PORT=22
 SSH_USER=ubuntu
 SSH_TARGET_DIR=/home/ubuntu/shreesh.in/blog
-KEY=~/Documents/Downloads/prerna-mac.pem
+KEY=/Users/shreesh/.ssh/sauron.pem
 DROPBOX_DIR=~/Dropbox/Public/
 
 help:
@@ -58,7 +58,7 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 ssh_upload: publish
-	scp -P $(SSH_PORT) -i $(KEY) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+	scp -P $(SSH_PORT)  -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
 rsync_upload: publish
 	rsync -e "ssh -p $(SSH_PORT)" -i $(KEY) -P -rvz --delete $(OUTPUTDIR) $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)

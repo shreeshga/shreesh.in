@@ -1,0 +1,324 @@
+Bart`s Blackboard
+---------------------------
+
+- I will not waste chalk.
+- I will not skateboard in the halls.
+- I will not burp in class.
+- I will not instigate revolution.
+- I will not draw naked ladies in class.
+- I did not see Elvis.
+- I will not call my teacher Hot Cakes.
+- Garlic gum is not funny.
+- They are laughing at me, not with me.
+- I will not yell Fire in a crowded classroom.
+- I will not encourage others to fly.
+- I will not fake my way through life.
+- Tar is not a plaything.
+- I will not Xerox my butt.
+- It's potato, not potatoe.
+- I will not trade pants with others.
+- I am not a 32 year old woman.
+- To put it another way, Nancy Cartwright is not a 10-year-old boy.
+- I will not do that thing with my tongue.
+- I will not drive the principal's car.
+- I will not pledge allegiance to Bart.
+- I will not sell school property.
+- I will not cut corners.
+- I will not get very far with this attitude.
+- I will not make flatuent noises in class.
+- I will not belch the National Anthem.
+- I will not sell land in Florida.
+- I will not grease the monkey bars.
+- I will not hide behind the Fifth Amendment.
+- I will not do anything bad ever again.
+- I will not show off.
+- This was written in an Olde English-style font.
+- I will not sleep through my education.
+- I am not a dentist.
+- Spitwads are not free speech.
+- Nobody likes sunburn slappers.
+- High explosives and school don't mix.
+- I will not bribe Principal Skinner.
+- I will not squeak chalk.
+- Bart squeaks the chalk while writing this.
+- I will finish what I sta.
+- This appears on one line; the rest is blank.
+- Bart Bucks are not legal tender.
+- I will not fake rabies.
+- This never appeared in original airings in the USA, but did in Canada.
+- Underwear should be worn on the inside.
+- The Christmas Pageant does not stink.
+- I will not torment the emotionally frail.
+- I will not carve gods.
+- I will not spank others.
+- I will not aim for the head.
+- I will not barf unless I'm sick.
+- I will not expose the ignorance of the faculty.
+- Lisa has a blackboard punishment of sorts during the episode; she has to clap erasers.
+- I saw nothing unusual in the teacher's lounge.
+- I will not conduct my own fire drills.
+- Funny noises are not funny.
+- I will not spin the turtle.
+- I will not snap bras.
+- I will not fake seizures.
+- This punishment is not boring and pointless.
+- My name is not Dr. Death.
+- I will not defame New Orleans.
+- New Orleans complained about the opening song in Oh, Streetcar!.
+- I will not prescribe medication.
+- I will not bury the new kid.
+- I will not teach others to fly.
+- I will not bring sheep to class.
+- A burp is not an answer.
+- Teacher is not a leper.
+- Coffee is not for kids.
+- I will not eat things for money.
+- I will not yell She's Dead during roll call.
+- The principal's toupee is not a Frisbee.
+- I will not call the principal spud head.
+- Goldfish don't bounce.
+- Mud is not one of the 4 food groups.
+- No one is interested in my underpants.
+- I will not sell miracle cures.
+- I will return the seeing-eye dog.
+- I do not have diplomatic immunity.
+- I will not charge admission to the bathroom.
+- I will never win an Emmy.
+- The cafeteria deep fryer is not a toy.
+- All work and no play makes Bart a dull boy.
+- I will not say Springfield just to get applause.
+- I am not authorized to fire substitute teachers.
+- My homework was not stolen by a one-armed man.
+- I will not go near the kindergarten turtle.
+- I am not delightfully saucy.
+- Organ transplants are best left to the professionals.
+- The Pledge of Allegiance does not end with Hail Satan.
+- I will not celebrate meaningless milestones.
+- This was first used for the 100th new episode.
+- There are plenty of businesses like show business.
+- I will not re-transmit without the express permission of Major League Baseball.
+- Five days is not too long to wait for a gun.
+- Beans are neither fruit nor musical.
+- I will not use abbrev..
+- I am not the reincarnation of Sammy Davis Jr..
+- I will not send lard through the mail.
+- I will not dissect things unless instructed.
+- I will not whittle hall passes out of soap.
+- Ralph won't morph if you squeeze him hard enough.
+- Adding just kidding doesn't make it okay to insult the Principal.
+- Bagman is not a legitimate career choice.
+- Cursive writing does not mean what I think it does.
+- Next time it could be me on the scaffolding.
+- I will not hang donuts on my person.
+- I will remember to take my medication.
+- I will not strut around like I own the place.
+- The Good Humor man can only be pushed so far.
+- I do not have power of attorney over first graders.
+- Nerve gas is not a toy.
+- I will not mock Mrs. Dumbface.
+- The First Amendment does not cover burping.
+- This is not a clue...or is it?.
+- In this episode, there are clues that are supposed to reveal who shoots Mr. Burns.
+- I will not complain about the solution when I hear it.
+- In this episode, the shooter (see 2F16 ) is revealed.
+- Bewitched does not promote Satanism.
+- No one wants to hear from my armpits.
+- I am not a lean mean spitting machine.
+- The boys room is not a water park.
+- Indian burns are not our cultural heritage.
+- Wedgies are unhealthy for children and other living things.
+- I will only do this once a year.
+- ...which is once a year too many for clip shows.
+- I will stop talking about the twelve inch pianist.
+- I am not certified to remove asbestos.
+- I did not learn everything I need to know in kindergarten.
+- I am not my long-lost twin.
+- During the episode, Lisa writes I will not be a snickerpuss. (complete with period).
+- The truth is not out there.
+- I am not licensed to do anything.
+- I will not hide the teacher's Prozac.
+- I will not lie in front of the school bus with ketchup on my face.
+- A fire drill does not demand a fire.
+- I no longer want my MTV.
+- Everyone is tired of that Richard Gere story.
+- I did not invent Irish dancing.
+- I will not tease Fatty.
+- There was no Roman god named Fartacus.
+- Rudolph's red nose is not alcohol-related.
+- Shooting paintballs is not an art form.
+- Pain is not the cleanser.
+- Silly String is not a nasal spray.
+- I was not told to do this.
+- My butt does not deserve a website.
+- I will not demand what I'm worth.
+- I will not mess with the opening credits.
+- This appeared in place of the couch opening; the rest of the family runs into the classroom.
+- I am not the new Dalai Lama.
+- I was not the inspiration for Kramer.
+- This was first shown three days after the last episode of Seinfeld.
+- I will not file frivolous lawsuits.
+- The Simpsons Halloween Special IX.
+- This was painted on the board in blood with a large brush.
+- butt.butt is not my E-mail address.
+- No one cares what my definition of is is.
+- Which is not quite true in President Clinton's case.
+- I will not scream for ice cream.
+- I am not a licensed hairstylist.
+- The President did it is not an excuse.
+- My mom is not dating Jerry Seinfeld.
+- Sherri does not got back.
+- I will not do the Dirty Bird.
+- No one wants to hear about my sciatica.
+- Hillbillies are people too.
+- Grammar is not a time of waste.
+- It does not suck to be you.
+- I cannot absolve sins.
+- A trained ape could not teach gym.
+- Loose teeth don't need my help.
+- I have neither been there nor done that.
+- I'm so very tired.
+- Fridays are not pants optional.
+- Pork is not a verb.
+- I am not the last Don.
+- I did not win the Nobel Fart Prize.
+- I won't not use no double negatives.
+- I can't see dead people.
+- I will not sell my kidney on eBay.
+- I will not create art from dung.
+- I will stop phoning it in.
+- Class clown is not a paid position.
+- Substitute teachers are not scabs.
+- My suspension was not mutual.
+- A belch is not an oral report.
+- Dodgeball stops at the gym door.
+- Non-Flammable is not a challenge.
+- I was not touched there by an angel.
+- I am not here on a fartball scholarship.
+- I will not dance on anyone's grave.
+- I cannot hire a substitute student.
+- I will not obey the voices in my head.
+- I will not plant subliminal messagores.
+- I will not surprise the incontinent.
+- I am not the acting President.
+- I was not the sixth Beatle.
+- I will only provide a urine sample when asked.
+- The nurse is not dealing.
+- Science class should not end in tragedy.
+- During the episode, Principal Skinner writes I ain't not a dorkus.
+- Network TV is not dead.
+- I will not let the dogs out.
+- I will not hide the teacher's medication.
+- I will not publish the Principal's credit report.
+- The hamster did not have a full life.
+- I will not buy a Presidential pardon.
+- Temptation Island was not a sleazy piece of crap.
+- I will not scare the Vice President.
+- I will not flush evidence.
+- Fire is not the cleanser.
+- Genetics is not an excuse.
+- Today is not Mothra's day.
+- Originally aired on Mother's Day (May 13), 2001.
+- I should not be twenty-one by now.
+- Nobody reads these anymore.
+- A burp in a jar is not a science project.
+- Fun does not have a size.
+- I am not Charlie Brown on acid.
+- I do not have a cereal named after me.
+- I will not bite the hand that feeds me Butterfingers.
+- The giving tree is not a chump.
+- Making Milhouse cry is not a science project.
+- Vampire is not a career choice.
+- I will never lie about being cancelled again.
+- Fish do not like coffee.
+- Milhouse did not test cootie positive.
+- This school does not need a regime change.
+- SpongeBob is not a contraceptive.
+- My pen is not a booger launcher.
+- Sandwiches should not contain sand.
+- Over forty &amp; single is not funny.
+- I will not speculate on how hot teacher used to be.
+- Poking a dead raccoon is not research.
+- Beer in a milk carton is not milk.
+- A booger is not a bookmark.
+- Does any kid still do this anymore?.
+- I am not smarter than the President.
+- Teacher was not dumped -- it was mutual.
+- I will not laminate dog doo.
+- The live-action opening used the first time this episode aired in the USA repeated the 9F10 opening.
+- I will not flip the classroom upside down.
+- The classroom was flipped upside-down (well, rotated 180 degrees) while he was writing this.
+- I will not leak the plot of the movie.
+- Je ne parle pas Français.
+- Have a great summer, everyone.
+- During the episode, Principal Skinner writes A baby beat me up.
+- We are not all naked under our clothes.
+- Frankincense is not a monster.
+- During the episode, Bart writes, So Long Suckers.
+- Global warming did not eat my homework.
+- I will not look up what teacher makes.
+- Pearls are not oyster barf.
+- Instead of the normal opening, the short Family Portrait from The Tracey Ullman Show aired.
+- I will not illegally download this movie.
+- I will not wait 20 years to make another movie.
+- The Wall Street Journal is better than ever ...now that Rupert Murdoch owns it.
+- I am not an FDIC-insured bank.
+- There is no such thing as an iPoddy.
+- The Pilgrims were not illegal aliens.
+- The capital of Montana is not Hannah.
+- Teacher did not pay too much for her condo.
+- The art teacher is fat, not pregnant.
+- A person's a person no matter how Ralph.
+- This punishment is not medieval..
+- Teacher's diet is working.
+- There's no such month as Rocktober.
+- I did not see teacher siphoning gas.
+- Prosperity is just around the corner.
+- I will not bring the chalkboard home.
+- Jesus is not mad his birthday is on Christmas.
+- I will not use permanent ink on the chalkboard.
+- HDTV is worth every cent.
+- This is the first episode produced in high definition.
+- March Madness is not an excuse for missing school.
+- I will not have fun with educational toys.
+- Four-leaf clovers are not mutant freaks.
+- My piggy bank is not entitled to TARP funds.
+- I will not mock teacher's outdated cell phone.
+- I will not put hot sauce in the CPR dummy.
+- It's Facebook, not Assbook.
+- The class hamster isn't just sleeping.
+- Chalkboarding is not torture.
+- I am not allergic to long division.
+- I do not have the hots for my mom.
+- Halloween does not kick Thanksgiving's ass.
+- Teachers' unions are not ruining the country.
+- The world may end in 2012 but this show won't.
+- World War II could not beat up World War I.
+- Hot dogs are not bookmarks.
+- This counts as gym and art class.
+- South Park - we'd stand beside you if we weren't so scared.
+- Eating my vegetables is not a Mother's Day present.
+- Batman is not nothing without his utility belt.
+- End of Lost: It was all the dog's dream. Watch us..
+- This first appeared on the same night as the last episode of Lost.
+- When I slept in class, it was not to help Leo DiCaprio.
+- I did not see teacher applying for welfare.
+- I must not write all over the walls.
+- It was written over all of the classroom's walls.
+- A Charlie Brown Thanksgiving is as good as A Charlie Brown Christmas.
+- Candy canes are not elf bones.
+- January is not Bart History Month.
+- Prince is not the son of Martin Luther King.
+- I will not make fun of Cupid's dink.
+- I'm not here on a spitball scholarship.
+- Daylight Savings is not a failed bank.
+- I will not ridicule teacher's Final Four bracket.
+- During the episode, Homer writes I'm a grown man who's scared of his own son.
+- I do not deserve a Mother's Day gift for being one badass mother.
+- It's Kristen Schaal, not Kristen Schall.
+- It was spelled Kristen Schall in NABF13's closing credits.
+- Pigs should not be used as guinea pigs.
+- It's not too early to speculate about the 2016 election.
+- Caucus is not a dirty word.
+- Cafeteria trays are not toboggans.
+- Tintin did not sucksuck.
+- We do need no education.
